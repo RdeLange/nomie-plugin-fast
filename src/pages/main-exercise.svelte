@@ -8,6 +8,7 @@
         Row,
         Column,
     } from "carbon-components-svelte";
+    import { saveToLS, readFromLS } from '../storage/storage';
    
     export let pluginname;
     export let pluginemoji;
@@ -27,11 +28,13 @@
             fastduration = current.duration;
             fastdescription = current.description;
    }
+   var isfasting = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
   
-  // if(mode=="widget"){
-  // setInterval(async () =>{
-  //  var temp = await plugin.storage.getItem('currentexercise') || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
-  // },5000)}
+   
+   if(mode=="widget"){
+   setInterval(async () =>{
+    isfasting = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
+    },5000)}
 
    let buttonview = "Start";
    
@@ -318,7 +321,7 @@ function startFast() {
   </Content>
   {:else if mode == "widget"}
   <div class="widget" style="background-color:{widgetbgcolor}">
-  {#if current.fasting}  
+  {#if isfasting.fasting}  
    
   <div class="circle-timer-container">
     <!-- progress circle -->

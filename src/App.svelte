@@ -22,6 +22,7 @@
   import SettingsAdjust from "carbon-icons-svelte/lib/SettingsAdjust.svelte";
   import Sun from "carbon-icons-svelte/lib/Sun.svelte";
   import Information from "carbon-icons-svelte/lib/Information.svelte";
+  import { saveToLS, readFromLS } from './storage/storage';
 
   const pluginname = "Nomie Fast";
   const pluginemoji = "⏲";
@@ -48,6 +49,8 @@
   let amountofcards=0;
   let currentexercise = {};
       currentexercise.fasting = false;
+  let currentexercisels = {};
+      currentexercisels.fasting = false;    
 
   // Load init params
   function loadInitParams() {
@@ -67,8 +70,10 @@
       history = await plugin.storage.getItem('history') || [];
       config = await plugin.storage.getItem('configuration') || {trackers:["none","none"],trackeroverrule:true,logentry:"Just finished <fast> exercise taking <duration> hours."};
       currentexercise = await plugin.storage.getItem('currentexercise') || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
-      
-       if (plugin.prefs.theme == "light") {
+      saveToLS('currentfast', currentexercise);
+      currentexercisels = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
+       
+      if (plugin.prefs.theme == "light") {
         if(mode == "modal"){
           theme = "g10"}
         else {theme = "g10"}}
@@ -151,7 +156,9 @@ let isAddMode = false;
 
  const storeCurrentFast = (event)=>{
   plugin.storage.setItem('currentexercise',event.detail);
+  saveToLS('currentfast', event.detail);
   currentexercise = event.detail;
+  currentexercisels = event.detail;
  }
 
  const storePrevious = (event)=>{
