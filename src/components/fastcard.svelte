@@ -68,6 +68,7 @@ return rgb;
     
   <style>
   .organic {
+    color:black;
   display: flex;
   flex-direction: column;
   justify-content: center;
