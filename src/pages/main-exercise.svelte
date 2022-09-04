@@ -341,6 +341,7 @@ function startFast() {
           </div>
  {:else}
   <br>
+  <br>
   <h1 style="text-align:center;line-height:40px">YOU ARE NOT FASTING</h1>
   {/if}
 </div>
