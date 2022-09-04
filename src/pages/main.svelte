@@ -1,7 +1,6 @@
 <script>
     import { createEventDispatcher } from 'svelte';
     import {
-      Button,
       Content,
         Grid,
         Row,

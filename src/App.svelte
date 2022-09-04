@@ -7,12 +7,7 @@
     HeaderUtilities,
     HeaderGlobalAction,
     SkipToContent,
-    Content,
-    Grid,
-    Row,
-    Column,
     Theme,
-    Button,
   } from "carbon-components-svelte";
   import Main from "./pages/main.svelte";
   import Info from "./pages/info.svelte";
