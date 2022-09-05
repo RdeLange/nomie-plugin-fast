@@ -48,8 +48,8 @@
         <Slider
             labelText="Hours"
             min={1}
-            max={48}
-            maxLabel="48"
+            max={60}
+            maxLabel="60"
             bind:value={duration}
         />
         <br>
