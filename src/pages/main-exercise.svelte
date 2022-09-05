@@ -34,7 +34,7 @@
    if(mode=="widget"){
    setInterval(() =>{
     isfasting = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
-    console.log(isfasting)},5000)}
+    start=isfasting},5000)}
 
    let buttonview = "Start";
    
