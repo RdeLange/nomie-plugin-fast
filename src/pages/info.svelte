@@ -33,7 +33,7 @@
             <h6>This is a plugin for Nomie 6. This plugin will support guided fasting. After a fasting period the plugin will log the results (mood & total time) in Nomie</h6>
             <hr><br>
             <h4>Licence:</h4>
-            <h6>The Nomie Breathe Plugin is licenced under the MIT licence</h6>
+            <h6>The Nomie Fast Plugin is licenced under the MIT licence</h6>
             <h6>Copyright Ronald de Lange.
                 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
                 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
