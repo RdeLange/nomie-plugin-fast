@@ -93,6 +93,7 @@ function init() {
 
 function storeCurrrentFast() {
     // store timeblock objects in local storage
+    saveToLS('currentfast', start);
     dispatch("storecurrentfast",start)
     
 };
