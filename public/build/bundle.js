@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 var app = (function () {
     'use strict';
 
@@ -18046,7 +18046,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (53:10) {#if fastinginprogress}
+    // (52:10) {#if fastinginprogress}
     function create_if_block_1$2(ctx) {
     	let h5;
     	let mounted;
@@ -18058,7 +18058,7 @@ var app = (function () {
     			h5.textContent = "⚠️ Fasting in progress ⚠️";
     			set_style(h5, "text-align", "center");
     			set_style(h5, "cursor", "pointer");
-    			add_location(h5, file$a, 53, 10, 1117);
+    			add_location(h5, file$a, 52, 10, 1103);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -18080,14 +18080,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$2.name,
     		type: "if",
-    		source: "(53:10) {#if fastinginprogress}",
+    		source: "(52:10) {#if fastinginprogress}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (48:8) <Column>
+    // (47:8) <Column>
     function create_default_slot_6$4(ctx) {
     	let h1;
     	let t0;
@@ -18118,13 +18118,13 @@ var app = (function () {
     			if (if_block) if_block.c();
     			if_block_anchor = empty();
     			set_style(h1, "text-align", "center");
-    			add_location(h1, file$a, 48, 10, 887);
+    			add_location(h1, file$a, 47, 10, 873);
     			set_style(h2, "text-align", "center");
     			attr_dev(h2, "class", "svelte-1i5ty11");
-    			add_location(h2, file$a, 49, 10, 946);
+    			add_location(h2, file$a, 48, 10, 932);
     			set_style(h5, "text-align", "center");
-    			add_location(h5, file$a, 50, 10, 1004);
-    			add_location(hr, file$a, 51, 10, 1068);
+    			add_location(h5, file$a, 49, 10, 990);
+    			add_location(hr, file$a, 50, 10, 1054);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -18175,14 +18175,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6$4.name,
     		type: "slot",
-    		source: "(48:8) <Column>",
+    		source: "(47:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (47:6) <Row>
+    // (46:6) <Row>
     function create_default_slot_5$4(ctx) {
     	let column;
     	let current;
@@ -18230,14 +18230,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5$4.name,
     		type: "slot",
-    		source: "(47:6) <Row>",
+    		source: "(46:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (70:10) {:else}
+    // (69:10) {:else}
     function create_else_block$1(ctx) {
     	let each_1_anchor;
     	let current;
@@ -18326,14 +18326,14 @@ var app = (function () {
     		block,
     		id: create_else_block$1.name,
     		type: "else",
-    		source: "(70:10) {:else}",
+    		source: "(69:10) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (63:10) {#if fasts.length === 0}
+    // (62:10) {#if fasts.length === 0}
     function create_if_block$7(ctx) {
     	let tile;
     	let current;
@@ -18381,14 +18381,14 @@ var app = (function () {
     		block,
     		id: create_if_block$7.name,
     		type: "if",
-    		source: "(63:10) {#if fasts.length === 0}",
+    		source: "(62:10) {#if fasts.length === 0}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (71:12) {#each fasts as fast}
+    // (70:12) {#each fasts as fast}
     function create_each_block$1(ctx) {
     	let fastcard;
     	let current;
@@ -18456,14 +18456,14 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(71:12) {#each fasts as fast}",
+    		source: "(70:12) {#each fasts as fast}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (64:10) <Tile>
+    // (63:10) <Tile>
     function create_default_slot_4$4(ctx) {
     	let p;
 
@@ -18472,7 +18472,7 @@ var app = (function () {
     			p = element("p");
     			p.textContent = "No Fast Exercises? Oh dear, please add one to start practicing.";
     			attr_dev(p, "class", "no-fasts svelte-1i5ty11");
-    			add_location(p, file$a, 64, 12, 1454);
+    			add_location(p, file$a, 63, 12, 1440);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -18487,14 +18487,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4$4.name,
     		type: "slot",
-    		source: "(64:10) <Tile>",
+    		source: "(63:10) <Tile>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (59:8) <Column>
+    // (58:8) <Column>
     function create_default_slot_3$4(ctx) {
     	let div2;
     	let div1;
@@ -18540,10 +18540,10 @@ var app = (function () {
     			t = space();
     			create_component(addcard.$$.fragment);
     			attr_dev(div0, "class", "fasts-list svelte-1i5ty11");
-    			add_location(div0, file$a, 61, 8, 1365);
-    			add_location(div1, file$a, 60, 6, 1351);
+    			add_location(div0, file$a, 60, 8, 1351);
+    			add_location(div1, file$a, 59, 6, 1337);
     			attr_dev(div2, "class", "container svelte-1i5ty11");
-    			add_location(div2, file$a, 59, 4, 1317);
+    			add_location(div2, file$a, 58, 4, 1303);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
@@ -18613,14 +18613,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3$4.name,
     		type: "slot",
-    		source: "(59:8) <Column>",
+    		source: "(58:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (58:6) <Row>
+    // (57:6) <Row>
     function create_default_slot_2$4(ctx) {
     	let column;
     	let current;
@@ -18668,14 +18668,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2$4.name,
     		type: "slot",
-    		source: "(58:6) <Row>",
+    		source: "(57:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (46:4) <Grid>
+    // (45:4) <Grid>
     function create_default_slot_1$5(ctx) {
     	let row0;
     	let t;
@@ -18748,14 +18748,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$5.name,
     		type: "slot",
-    		source: "(46:4) <Grid>",
+    		source: "(45:4) <Grid>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (45:0) <Content>
+    // (44:0) <Content>
     function create_default_slot$5(ctx) {
     	let grid;
     	let current;
@@ -18803,7 +18803,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$5.name,
     		type: "slot",
-    		source: "(45:0) <Content>",
+    		source: "(44:0) <Content>",
     		ctx
     	});
 
@@ -18932,7 +18932,6 @@ var app = (function () {
 
     	$$self.$capture_state = () => ({
     		createEventDispatcher,
-    		Button,
     		Content,
     		Grid,
     		Row,
@@ -19129,7 +19128,7 @@ var app = (function () {
     			h41.textContent = "Licence:";
     			t13 = space();
     			h61 = element("h6");
-    			h61.textContent = "The Nomie Breathe Plugin is licenced under the MIT licence";
+    			h61.textContent = "The Nomie Fast Plugin is licenced under the MIT licence";
     			t15 = space();
     			h62 = element("h6");
     			h62.textContent = "Copyright Ronald de Lange.\n                Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n                The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n                THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
@@ -19159,12 +19158,12 @@ var app = (function () {
     			attr_dev(h61, "class", "svelte-gjbk59");
     			add_location(h61, file$9, 35, 12, 930);
     			attr_dev(h62, "class", "svelte-gjbk59");
-    			add_location(h62, file$9, 36, 12, 1010);
-    			add_location(hr2, file$9, 41, 12, 2140);
-    			add_location(br1, file$9, 41, 16, 2144);
-    			add_location(h42, file$9, 42, 12, 2161);
+    			add_location(h62, file$9, 36, 12, 1007);
+    			add_location(hr2, file$9, 41, 12, 2137);
+    			add_location(br1, file$9, 41, 16, 2141);
+    			add_location(h42, file$9, 42, 12, 2158);
     			attr_dev(h63, "class", "svelte-gjbk59");
-    			add_location(h63, file$9, 43, 12, 2191);
+    			add_location(h63, file$9, 43, 12, 2188);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -19354,9 +19353,9 @@ var app = (function () {
     			create_component(button.$$.fragment);
     			t1 = space();
     			br1 = element("br");
-    			add_location(br0, file$9, 48, 12, 2320);
-    			add_location(span, file$9, 49, 13, 2338);
-    			add_location(br1, file$9, 50, 13, 2428);
+    			add_location(br0, file$9, 48, 12, 2317);
+    			add_location(span, file$9, 49, 13, 2335);
+    			add_location(br1, file$9, 50, 13, 2425);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -20428,7 +20427,7 @@ var app = (function () {
 
     	let textinput_props = {
     		placeholder: "Enter additional Log input...",
-    		helperText: "You can include a reference to the related Breathing Exercise. For instance: I just did <fast> for <duration> hours."
+    		helperText: "You can include a reference to the related Fast Exercise. For instance: I just did <fast> for <duration> hours."
     	};
 
     	if (/*logentry*/ ctx[3] !== void 0) {
@@ -20730,10 +20729,10 @@ var app = (function () {
     			br = element("br");
     			t4 = space();
     			create_component(button.$$.fragment);
-    			add_location(h4, file$6, 145, 6, 5172);
+    			add_location(h4, file$6, 145, 6, 5167);
     			attr_dev(h6, "class", "svelte-t8bjwb");
-    			add_location(h6, file$6, 146, 6, 5211);
-    			add_location(br, file$6, 147, 6, 5276);
+    			add_location(h6, file$6, 146, 6, 5206);
+    			add_location(br, file$6, 147, 6, 5271);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h4, anchor);
@@ -20842,9 +20841,9 @@ var app = (function () {
     			create_component(button.$$.fragment);
     			t1 = space();
     			br1 = element("br");
-    			add_location(br0, file$6, 153, 10, 5383);
-    			add_location(span, file$6, 154, 11, 5399);
-    			add_location(br1, file$6, 155, 11, 5507);
+    			add_location(br0, file$6, 153, 10, 5378);
+    			add_location(span, file$6, 154, 11, 5394);
+    			add_location(br1, file$6, 155, 11, 5502);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -20950,9 +20949,9 @@ var app = (function () {
     			create_component(button.$$.fragment);
     			t1 = space();
     			br1 = element("br");
-    			add_location(br0, file$6, 158, 8, 5549);
-    			add_location(span, file$6, 159, 9, 5563);
-    			add_location(br1, file$6, 160, 9, 5658);
+    			add_location(br0, file$6, 158, 8, 5544);
+    			add_location(span, file$6, 159, 9, 5558);
+    			add_location(br1, file$6, 160, 9, 5653);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -21142,8 +21141,8 @@ var app = (function () {
     			br1 = element("br");
     			t4 = space();
     			create_component(row.$$.fragment);
-    			add_location(br0, file$6, 143, 6, 5148);
-    			add_location(br1, file$6, 150, 4, 5343);
+    			add_location(br0, file$6, 143, 6, 5143);
+    			add_location(br1, file$6, 150, 4, 5338);
     		},
     		m: function mount(target, anchor) {
     			mount_component(grid, target, anchor);
@@ -22878,8 +22877,8 @@ var app = (function () {
     	let slider_props = {
     		labelText: "Hours",
     		min: 1,
-    		max: 48,
-    		maxLabel: "48"
+    		max: 60,
+    		maxLabel: "60"
     	};
 
     	if (/*duration*/ ctx[3] !== void 0) {
@@ -29035,7 +29034,7 @@ var app = (function () {
     const { console: console_1$1 } = globals;
     const file$3 = "src/pages/main-exercise.svelte";
 
-    // (322:29) 
+    // (323:29) 
     function create_if_block_1$1(ctx) {
     	let div;
 
@@ -29053,7 +29052,7 @@ var app = (function () {
     			if_block.c();
     			attr_dev(div, "class", "widget svelte-1tvsfqa");
     			set_style(div, "background-color", /*widgetbgcolor*/ ctx[10]);
-    			add_location(div, file$3, 322, 2, 10363);
+    			add_location(div, file$3, 323, 2, 10408);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -29088,14 +29087,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$1.name,
     		type: "if",
-    		source: "(322:29) ",
+    		source: "(323:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (256:0) {#if mode == "modal"}
+    // (257:0) {#if mode == "modal"}
     function create_if_block$3(ctx) {
     	let content;
     	let current;
@@ -29143,14 +29142,14 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(256:0) {#if mode == \\\"modal\\\"}",
+    		source: "(257:0) {#if mode == \\\"modal\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (345:1) {:else}
+    // (346:1) {:else}
     function create_else_block(ctx) {
     	let br0;
     	let t0;
@@ -29167,13 +29166,13 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = "YOU'RE NOT FASTING";
     			attr_dev(br0, "class", "svelte-1tvsfqa");
-    			add_location(br0, file$3, 345, 2, 11235);
+    			add_location(br0, file$3, 346, 2, 11280);
     			attr_dev(br1, "class", "svelte-1tvsfqa");
-    			add_location(br1, file$3, 346, 2, 11242);
+    			add_location(br1, file$3, 347, 2, 11287);
     			set_style(h1, "text-align", "center");
     			set_style(h1, "line-height", "40px");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 347, 2, 11249);
+    			add_location(h1, file$3, 348, 2, 11294);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -29196,14 +29195,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(345:1) {:else}",
+    		source: "(346:1) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (324:2) {#if isfasting.fasting}
+    // (325:2) {#if isfasting.fasting}
     function create_if_block_2$1(ctx) {
     	let div7;
     	let div6;
@@ -29251,38 +29250,38 @@ var app = (function () {
     			t8 = space();
     			div4 = element("div");
     			attr_dev(p0, "class", "svelte-1tvsfqa");
-    			add_location(p0, file$3, 330, 20, 10716);
+    			add_location(p0, file$3, 331, 20, 10761);
     			attr_dev(p1, "id", "elapsed-time");
     			attr_dev(p1, "class", "svelte-1tvsfqa");
-    			add_location(p1, file$3, 331, 20, 10757);
+    			add_location(p1, file$3, 332, 20, 10802);
     			attr_dev(div0, "id", "elapsed-div");
     			attr_dev(div0, "class", "svelte-1tvsfqa");
-    			add_location(div0, file$3, 329, 16, 10673);
+    			add_location(div0, file$3, 330, 16, 10718);
     			attr_dev(span, "id", "percent");
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 333, 16, 10835);
+    			add_location(span, file$3, 334, 16, 10880);
     			attr_dev(h1, "id", "digits-display");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 335, 24, 10944);
+    			add_location(h1, file$3, 336, 24, 10989);
     			attr_dev(div1, "id", "timer-display");
     			attr_dev(div1, "class", "svelte-1tvsfqa");
-    			add_location(div1, file$3, 334, 20, 10895);
+    			add_location(div1, file$3, 335, 20, 10940);
     			attr_dev(div2, "id", "circle-text");
     			attr_dev(div2, "class", "svelte-1tvsfqa");
-    			add_location(div2, file$3, 328, 12, 10634);
+    			add_location(div2, file$3, 329, 12, 10679);
     			attr_dev(div3, "class", "first50-bar svelte-1tvsfqa");
-    			add_location(div3, file$3, 339, 14, 11093);
+    			add_location(div3, file$3, 340, 14, 11138);
     			attr_dev(div4, "class", "value-bar svelte-1tvsfqa");
-    			add_location(div4, file$3, 340, 14, 11139);
+    			add_location(div4, file$3, 341, 14, 11184);
     			attr_dev(div5, "class", "left-half-clipper svelte-1tvsfqa");
-    			add_location(div5, file$3, 338, 12, 11047);
+    			add_location(div5, file$3, 339, 12, 11092);
     			attr_dev(div6, "id", "circle");
     			attr_dev(div6, "class", div6_class_value = "" + (null_to_empty(/*circleClass*/ ctx[11]) + " svelte-1tvsfqa"));
     			set_style(div6, "transform", "scale(0.50)");
     			set_style(div6, "margin-top", "-75px");
-    			add_location(div6, file$3, 327, 8, 10533);
+    			add_location(div6, file$3, 328, 8, 10578);
     			attr_dev(div7, "class", "circle-timer-container svelte-1tvsfqa");
-    			add_location(div7, file$3, 325, 2, 10459);
+    			add_location(div7, file$3, 326, 2, 10504);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div7, anchor);
@@ -29324,14 +29323,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2$1.name,
     		type: "if",
-    		source: "(324:2) {#if isfasting.fasting}",
+    		source: "(325:2) {#if isfasting.fasting}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (260:8) <Column>
+    // (261:8) <Column>
     function create_default_slot_20(ctx) {
     	let h1;
     	let t0;
@@ -29357,15 +29356,15 @@ var app = (function () {
     			hr = element("hr");
     			set_style(h1, "text-align", "center");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 260, 10, 8156);
+    			add_location(h1, file$3, 261, 10, 8201);
     			set_style(h2, "text-align", "center");
     			attr_dev(h2, "class", "svelte-1tvsfqa");
-    			add_location(h2, file$3, 261, 10, 8215);
+    			add_location(h2, file$3, 262, 10, 8260);
     			set_style(h5, "text-align", "center");
     			attr_dev(h5, "class", "svelte-1tvsfqa");
-    			add_location(h5, file$3, 262, 10, 8273);
+    			add_location(h5, file$3, 263, 10, 8318);
     			attr_dev(hr, "class", "svelte-1tvsfqa");
-    			add_location(hr, file$3, 263, 10, 8332);
+    			add_location(hr, file$3, 264, 10, 8377);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -29397,14 +29396,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_20.name,
     		type: "slot",
-    		source: "(260:8) <Column>",
+    		source: "(261:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (259:6) <Row>
+    // (260:6) <Row>
     function create_default_slot_19(ctx) {
     	let column;
     	let current;
@@ -29452,14 +29451,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_19.name,
     		type: "slot",
-    		source: "(259:6) <Row>",
+    		source: "(260:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (268:8) <Column>
+    // (269:8) <Column>
     function create_default_slot_18(ctx) {
     	let br;
     	let t0;
@@ -29473,10 +29472,10 @@ var app = (function () {
     			h5 = element("h5");
     			t1 = text(/*fastname*/ ctx[0]);
     			attr_dev(br, "class", "svelte-1tvsfqa");
-    			add_location(br, file$3, 268, 10, 8407);
+    			add_location(br, file$3, 269, 10, 8452);
     			set_style(h5, "text-align", "center");
     			attr_dev(h5, "class", "svelte-1tvsfqa");
-    			add_location(h5, file$3, 269, 10, 8422);
+    			add_location(h5, file$3, 270, 10, 8467);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br, anchor);
@@ -29498,14 +29497,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_18.name,
     		type: "slot",
-    		source: "(268:8) <Column>",
+    		source: "(269:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (267:6) <Row>
+    // (268:6) <Row>
     function create_default_slot_17(ctx) {
     	let column;
     	let current;
@@ -29553,14 +29552,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_17.name,
     		type: "slot",
-    		source: "(267:6) <Row>",
+    		source: "(268:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (274:8) <Column>
+    // (275:8) <Column>
     function create_default_slot_16(ctx) {
     	let h5;
     	let t;
@@ -29571,7 +29570,7 @@ var app = (function () {
     			t = text(/*status*/ ctx[4]);
     			set_style(h5, "text-align", "center");
     			attr_dev(h5, "class", "svelte-1tvsfqa");
-    			add_location(h5, file$3, 274, 10, 8538);
+    			add_location(h5, file$3, 275, 10, 8583);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -29589,14 +29588,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_16.name,
     		type: "slot",
-    		source: "(274:8) <Column>",
+    		source: "(275:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (273:6) <Row>
+    // (274:6) <Row>
     function create_default_slot_15(ctx) {
     	let column;
     	let current;
@@ -29644,14 +29643,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_15.name,
     		type: "slot",
-    		source: "(273:6) <Row>",
+    		source: "(274:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (279:8) <Column>
+    // (280:8) <Column>
     function create_default_slot_14(ctx) {
     	let div7;
     	let div6;
@@ -29699,36 +29698,36 @@ var app = (function () {
     			t8 = space();
     			div4 = element("div");
     			attr_dev(p0, "class", "svelte-1tvsfqa");
-    			add_location(p0, file$3, 284, 28, 8900);
+    			add_location(p0, file$3, 285, 28, 8945);
     			attr_dev(p1, "id", "elapsed-time");
     			attr_dev(p1, "class", "svelte-1tvsfqa");
-    			add_location(p1, file$3, 285, 28, 8949);
+    			add_location(p1, file$3, 286, 28, 8994);
     			attr_dev(div0, "id", "elapsed-div");
     			attr_dev(div0, "class", "svelte-1tvsfqa");
-    			add_location(div0, file$3, 283, 24, 8849);
+    			add_location(div0, file$3, 284, 24, 8894);
     			attr_dev(span, "id", "percent");
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 287, 24, 9043);
+    			add_location(span, file$3, 288, 24, 9088);
     			attr_dev(h1, "id", "digits-display");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 289, 32, 9168);
+    			add_location(h1, file$3, 290, 32, 9213);
     			attr_dev(div1, "id", "timer-display");
     			attr_dev(div1, "class", "svelte-1tvsfqa");
-    			add_location(div1, file$3, 288, 28, 9111);
+    			add_location(div1, file$3, 289, 28, 9156);
     			attr_dev(div2, "id", "circle-text");
     			attr_dev(div2, "class", "svelte-1tvsfqa");
-    			add_location(div2, file$3, 282, 20, 8802);
+    			add_location(div2, file$3, 283, 20, 8847);
     			attr_dev(div3, "class", "first50-bar svelte-1tvsfqa");
-    			add_location(div3, file$3, 293, 22, 9349);
+    			add_location(div3, file$3, 294, 22, 9394);
     			attr_dev(div4, "class", "value-bar svelte-1tvsfqa");
-    			add_location(div4, file$3, 294, 22, 9403);
+    			add_location(div4, file$3, 295, 22, 9448);
     			attr_dev(div5, "class", "left-half-clipper svelte-1tvsfqa");
-    			add_location(div5, file$3, 292, 20, 9295);
+    			add_location(div5, file$3, 293, 20, 9340);
     			attr_dev(div6, "id", "circle");
     			attr_dev(div6, "class", div6_class_value = "" + (null_to_empty(/*circleClass*/ ctx[11]) + " svelte-1tvsfqa"));
-    			add_location(div6, file$3, 281, 16, 8742);
+    			add_location(div6, file$3, 282, 16, 8787);
     			attr_dev(div7, "class", "circle-timer-container svelte-1tvsfqa");
-    			add_location(div7, file$3, 279, 10, 8652);
+    			add_location(div7, file$3, 280, 10, 8697);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div7, anchor);
@@ -29770,14 +29769,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_14.name,
     		type: "slot",
-    		source: "(279:8) <Column>",
+    		source: "(280:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (278:6) <Row>
+    // (279:6) <Row>
     function create_default_slot_13(ctx) {
     	let column;
     	let current;
@@ -29825,14 +29824,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_13.name,
     		type: "slot",
-    		source: "(278:6) <Row>",
+    		source: "(279:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (301:8) <Column>
+    // (302:8) <Column>
     function create_default_slot_12(ctx) {
     	let p;
 
@@ -29843,7 +29842,7 @@ var app = (function () {
     			set_style(p, "text-align", "left");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 300, 16, 9548);
+    			add_location(p, file$3, 301, 16, 9593);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -29858,14 +29857,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_12.name,
     		type: "slot",
-    		source: "(301:8) <Column>",
+    		source: "(302:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (302:8) <Column>
+    // (303:8) <Column>
     function create_default_slot_11(ctx) {
     	let p;
 
@@ -29876,7 +29875,7 @@ var app = (function () {
     			set_style(p, "text-align", "right");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 301, 16, 9641);
+    			add_location(p, file$3, 302, 16, 9686);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -29891,14 +29890,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_11.name,
     		type: "slot",
-    		source: "(302:8) <Column>",
+    		source: "(303:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (300:6) <Row>
+    // (301:6) <Row>
     function create_default_slot_10(ctx) {
     	let column0;
     	let t;
@@ -29971,14 +29970,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(300:6) <Row>",
+    		source: "(301:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (305:8) <Column>
+    // (306:8) <Column>
     function create_default_slot_9(ctx) {
     	let p;
     	let t;
@@ -29990,7 +29989,7 @@ var app = (function () {
     			set_style(p, "text-align", "left");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 304, 16, 9753);
+    			add_location(p, file$3, 305, 16, 9798);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -30008,14 +30007,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(305:8) <Column>",
+    		source: "(306:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (306:8) <Column>
+    // (307:8) <Column>
     function create_default_slot_8(ctx) {
     	let p;
     	let t;
@@ -30027,7 +30026,7 @@ var app = (function () {
     			set_style(p, "text-align", "right");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 305, 16, 9841);
+    			add_location(p, file$3, 306, 16, 9886);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -30045,14 +30044,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(306:8) <Column>",
+    		source: "(307:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (304:6) <Row>
+    // (305:6) <Row>
     function create_default_slot_7(ctx) {
     	let column0;
     	let t;
@@ -30125,14 +30124,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(304:6) <Row>",
+    		source: "(305:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (311:19) <Button style="width:100%" kind="secondary" on:click={()=>{dispatch("exitexercise")}}>
+    // (312:19) <Button style="width:100%" kind="secondary" on:click={()=>{dispatch("exitexercise")}}>
     function create_default_slot_6(ctx) {
     	let t;
 
@@ -30152,14 +30151,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(311:19) <Button style=\\\"width:100%\\\" kind=\\\"secondary\\\" on:click={()=>{dispatch(\\\"exitexercise\\\")}}>",
+    		source: "(312:19) <Button style=\\\"width:100%\\\" kind=\\\"secondary\\\" on:click={()=>{dispatch(\\\"exitexercise\\\")}}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (309:8) <Column>
+    // (310:8) <Column>
     function create_default_slot_5(ctx) {
     	let br0;
     	let t0;
@@ -30190,11 +30189,11 @@ var app = (function () {
     			t1 = space();
     			br1 = element("br");
     			attr_dev(br0, "class", "svelte-1tvsfqa");
-    			add_location(br0, file$3, 309, 12, 9966);
+    			add_location(br0, file$3, 310, 12, 10011);
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 310, 13, 9984);
+    			add_location(span, file$3, 311, 13, 10029);
     			attr_dev(br1, "class", "svelte-1tvsfqa");
-    			add_location(br1, file$3, 311, 13, 10110);
+    			add_location(br1, file$3, 312, 13, 10155);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -30237,14 +30236,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(309:8) <Column>",
+    		source: "(310:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (316:17) <Button style="width:100%" on:click={buttonClicked}>
+    // (317:17) <Button style="width:100%" on:click={buttonClicked}>
     function create_default_slot_4(ctx) {
     	let t;
 
@@ -30267,14 +30266,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(316:17) <Button style=\\\"width:100%\\\" on:click={buttonClicked}>",
+    		source: "(317:17) <Button style=\\\"width:100%\\\" on:click={buttonClicked}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (314:6) <Column>
+    // (315:6) <Column>
     function create_default_slot_3(ctx) {
     	let br0;
     	let t0;
@@ -30304,11 +30303,11 @@ var app = (function () {
     			t1 = space();
     			br1 = element("br");
     			attr_dev(br0, "class", "svelte-1tvsfqa");
-    			add_location(br0, file$3, 314, 10, 10158);
+    			add_location(br0, file$3, 315, 10, 10203);
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 315, 11, 10174);
+    			add_location(span, file$3, 316, 11, 10219);
     			attr_dev(br1, "class", "svelte-1tvsfqa");
-    			add_location(br1, file$3, 316, 11, 10272);
+    			add_location(br1, file$3, 317, 11, 10317);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -30351,14 +30350,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(314:6) <Column>",
+    		source: "(315:6) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (308:6) <Row>
+    // (309:6) <Row>
     function create_default_slot_2(ctx) {
     	let column0;
     	let t;
@@ -30431,14 +30430,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(308:6) <Row>",
+    		source: "(309:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (258:4) <Grid>
+    // (259:4) <Grid>
     function create_default_slot_1$1(ctx) {
     	let row0;
     	let t0;
@@ -30636,14 +30635,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$1.name,
     		type: "slot",
-    		source: "(258:4) <Grid>",
+    		source: "(259:4) <Grid>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (257:0) <Content>
+    // (258:0) <Content>
     function create_default_slot$1(ctx) {
     	let grid;
     	let current;
@@ -30691,7 +30690,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$1.name,
     		type: "slot",
-    		source: "(257:0) <Content>",
+    		source: "(258:0) <Content>",
     		ctx
     	});
 
@@ -30836,7 +30835,7 @@ var app = (function () {
 
     	if (mode == "widget") {
     		setInterval(
-    			async () => {
+    			() => {
     				$$invalidate(5, isfasting = JSON.parse(readFromLS('currentfast')) || {
     					description: "",
     					name: "",
@@ -30848,6 +30847,8 @@ var app = (function () {
     					endday: "",
     					fasting: false
     				});
+
+    				start = isfasting;
     			},
     			5000
     		);
@@ -30895,6 +30896,8 @@ var app = (function () {
 
     	function storeCurrrentFast() {
     		// store timeblock objects in local storage
+    		saveToLS('currentfast', start);
+
     		dispatch("storecurrentfast", start);
     	}
 
@@ -31842,7 +31845,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file = "src/App.svelte";
 
-    // (366:19) 
+    // (362:19) 
     function create_if_block_10(ctx) {
     	let h1;
     	let t1;
@@ -31865,12 +31868,12 @@ var app = (function () {
     			t5 = space();
     			hr = element("hr");
     			set_style(h1, "text-align", "center");
-    			add_location(h1, file, 366, 8, 11194);
+    			add_location(h1, file, 362, 8, 14030);
     			set_style(h2, "text-align", "center");
-    			add_location(h2, file, 367, 8, 11251);
+    			add_location(h2, file, 363, 8, 14087);
     			set_style(h5, "text-align", "center");
-    			add_location(h5, file, 368, 8, 11307);
-    			add_location(hr, file, 369, 8, 11377);
+    			add_location(h5, file, 364, 8, 14143);
+    			add_location(hr, file, 365, 8, 14213);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -31899,14 +31902,14 @@ var app = (function () {
     		block,
     		id: create_if_block_10.name,
     		type: "if",
-    		source: "(366:19) ",
+    		source: "(362:19) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (334:0) {#if mode == "modal"  || mode =="widget"}
+    // (330:0) {#if mode == "modal"  || mode =="widget"}
     function create_if_block_1(ctx) {
     	let theme_1;
     	let updating_theme;
@@ -31999,14 +32002,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(334:0) {#if mode == \\\"modal\\\"  || mode ==\\\"widget\\\"}",
+    		source: "(330:0) {#if mode == \\\"modal\\\"  || mode ==\\\"widget\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (336:0) {#if inNomie}
+    // (332:0) {#if inNomie}
     function create_if_block_2(ctx) {
     	let current_block_type_index;
     	let if_block;
@@ -32096,14 +32099,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(336:0) {#if inNomie}",
+    		source: "(332:0) {#if inNomie}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (361:27) 
+    // (357:27) 
     function create_if_block_9(ctx) {
     	let mainexercise;
     	let updating_mode;
@@ -32251,14 +32254,14 @@ var app = (function () {
     		block,
     		id: create_if_block_9.name,
     		type: "if",
-    		source: "(361:27) ",
+    		source: "(357:27) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (337:0) {#if mode == "modal"}
+    // (333:0) {#if mode == "modal"}
     function create_if_block_3(ctx) {
     	let header;
     	let t;
@@ -32393,14 +32396,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(337:0) {#if mode == \\\"modal\\\"}",
+    		source: "(333:0) {#if mode == \\\"modal\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (342:2) <HeaderUtilities>
+    // (338:2) <HeaderUtilities>
     function create_default_slot_1(ctx) {
     	let headerglobalaction0;
     	let t0;
@@ -32476,14 +32479,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(342:2) <HeaderUtilities>",
+    		source: "(338:2) <HeaderUtilities>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (338:0) <Header company="Nomie6" platformName={pluginname} on:click={showMain}>
+    // (334:0) <Header company="Nomie6" platformName={pluginname} on:click={showMain}>
     function create_default_slot(ctx) {
     	let headerutilities;
     	let current;
@@ -32531,14 +32534,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(338:0) <Header company=\\\"Nomie6\\\" platformName={pluginname} on:click={showMain}>",
+    		source: "(334:0) <Header company=\\\"Nomie6\\\" platformName={pluginname} on:click={showMain}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (339:2) <svelte:fragment slot="skip-to-content">
+    // (335:2) <svelte:fragment slot="skip-to-content">
     function create_skip_to_content_slot(ctx) {
     	let skiptocontent;
     	let current;
@@ -32570,14 +32573,14 @@ var app = (function () {
     		block,
     		id: create_skip_to_content_slot.name,
     		type: "slot",
-    		source: "(339:2) <svelte:fragment slot=\\\"skip-to-content\\\">",
+    		source: "(335:2) <svelte:fragment slot=\\\"skip-to-content\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (358:29) 
+    // (354:29) 
     function create_if_block_8(ctx) {
     	let edit;
     	let updating_theme;
@@ -32700,14 +32703,14 @@ var app = (function () {
     		block,
     		id: create_if_block_8.name,
     		type: "if",
-    		source: "(358:29) ",
+    		source: "(354:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (356:33) 
+    // (352:33) 
     function create_if_block_7(ctx) {
     	let mainexercise;
     	let updating_mode;
@@ -32855,14 +32858,14 @@ var app = (function () {
     		block,
     		id: create_if_block_7.name,
     		type: "if",
-    		source: "(356:33) ",
+    		source: "(352:33) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (354:29) 
+    // (350:29) 
     function create_if_block_6(ctx) {
     	let settings;
     	let updating_theme;
@@ -32942,14 +32945,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6.name,
     		type: "if",
-    		source: "(354:29) ",
+    		source: "(350:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (352:25) 
+    // (348:25) 
     function create_if_block_5(ctx) {
     	let info;
     	let current;
@@ -32988,14 +32991,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(352:25) ",
+    		source: "(348:25) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (350:0) {#if view == "main"}
+    // (346:0) {#if view == "main"}
     function create_if_block_4(ctx) {
     	let main;
     	let updating_fastinginprogress;
@@ -33090,14 +33093,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(350:0) {#if view == \\\"main\\\"}",
+    		source: "(346:0) {#if view == \\\"main\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (372:0) {#if loading}
+    // (368:0) {#if loading}
     function create_if_block(ctx) {
     	let div;
     	let p;
@@ -33107,9 +33110,9 @@ var app = (function () {
     			div = element("div");
     			p = element("p");
     			p.textContent = "Loading....";
-    			add_location(p, file, 373, 0, 11424);
+    			add_location(p, file, 369, 0, 14260);
     			attr_dev(div, "class", "startup svelte-o4bbad");
-    			add_location(div, file, 372, 0, 11402);
+    			add_location(div, file, 368, 0, 14238);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -33124,7 +33127,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(372:0) {#if loading}",
+    		source: "(368:0) {#if loading}",
     		ctx
     	});
 
@@ -33250,7 +33253,7 @@ var app = (function () {
     	return block;
     }
 
-    const pluginname = "Nomie Fast";
+    const pluginname = "Nomie Fasting";
     const pluginemoji = "⏲";
 
     function instance($$self, $$props, $$invalidate) {
@@ -33260,7 +33263,8 @@ var app = (function () {
     	const plugin = new NomiePlugin({
     			name: pluginname,
     			emoji: pluginemoji,
-    			description: "Starter Template for Nomie6 Plugins",
+    			avatar: "data:image/jpeg;base64,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",
+    			description: "Intermitted Fasting Timer",
     			uses: [
     				"createNote",
     				"onLaunch",
@@ -33766,12 +33770,7 @@ var app = (function () {
     		HeaderUtilities,
     		HeaderGlobalAction,
     		SkipToContent,
-    		Content,
-    		Grid,
-    		Row,
-    		Column,
     		Theme,
-    		Button,
     		Main,
     		Info,
     		Settings,
