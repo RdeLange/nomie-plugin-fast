@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35731/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 var app = (function () {
     'use strict';
 
@@ -31845,7 +31845,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file = "src/App.svelte";
 
-    // (362:19) 
+    // (363:19) 
     function create_if_block_10(ctx) {
     	let h1;
     	let t1;
@@ -31868,12 +31868,12 @@ var app = (function () {
     			t5 = space();
     			hr = element("hr");
     			set_style(h1, "text-align", "center");
-    			add_location(h1, file, 362, 8, 14030);
+    			add_location(h1, file, 363, 8, 14081);
     			set_style(h2, "text-align", "center");
-    			add_location(h2, file, 363, 8, 14087);
+    			add_location(h2, file, 364, 8, 14138);
     			set_style(h5, "text-align", "center");
-    			add_location(h5, file, 364, 8, 14143);
-    			add_location(hr, file, 365, 8, 14213);
+    			add_location(h5, file, 365, 8, 14194);
+    			add_location(hr, file, 366, 8, 14264);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -31902,14 +31902,14 @@ var app = (function () {
     		block,
     		id: create_if_block_10.name,
     		type: "if",
-    		source: "(362:19) ",
+    		source: "(363:19) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (330:0) {#if mode == "modal"  || mode =="widget"}
+    // (331:0) {#if mode == "modal"  || mode =="widget"}
     function create_if_block_1(ctx) {
     	let theme_1;
     	let updating_theme;
@@ -32002,14 +32002,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(330:0) {#if mode == \\\"modal\\\"  || mode ==\\\"widget\\\"}",
+    		source: "(331:0) {#if mode == \\\"modal\\\"  || mode ==\\\"widget\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (332:0) {#if inNomie}
+    // (333:0) {#if inNomie}
     function create_if_block_2(ctx) {
     	let current_block_type_index;
     	let if_block;
@@ -32099,14 +32099,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(332:0) {#if inNomie}",
+    		source: "(333:0) {#if inNomie}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (357:27) 
+    // (358:27) 
     function create_if_block_9(ctx) {
     	let mainexercise;
     	let updating_mode;
@@ -32254,14 +32254,14 @@ var app = (function () {
     		block,
     		id: create_if_block_9.name,
     		type: "if",
-    		source: "(357:27) ",
+    		source: "(358:27) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (333:0) {#if mode == "modal"}
+    // (334:0) {#if mode == "modal"}
     function create_if_block_3(ctx) {
     	let header;
     	let t;
@@ -32396,14 +32396,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(333:0) {#if mode == \\\"modal\\\"}",
+    		source: "(334:0) {#if mode == \\\"modal\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (338:2) <HeaderUtilities>
+    // (339:2) <HeaderUtilities>
     function create_default_slot_1(ctx) {
     	let headerglobalaction0;
     	let t0;
@@ -32479,14 +32479,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(338:2) <HeaderUtilities>",
+    		source: "(339:2) <HeaderUtilities>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (334:0) <Header company="Nomie6" platformName={pluginname} on:click={showMain}>
+    // (335:0) <Header company="Nomie6" platformName={pluginname} on:click={showMain}>
     function create_default_slot(ctx) {
     	let headerutilities;
     	let current;
@@ -32534,14 +32534,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(334:0) <Header company=\\\"Nomie6\\\" platformName={pluginname} on:click={showMain}>",
+    		source: "(335:0) <Header company=\\\"Nomie6\\\" platformName={pluginname} on:click={showMain}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (335:2) <svelte:fragment slot="skip-to-content">
+    // (336:2) <svelte:fragment slot="skip-to-content">
     function create_skip_to_content_slot(ctx) {
     	let skiptocontent;
     	let current;
@@ -32573,14 +32573,14 @@ var app = (function () {
     		block,
     		id: create_skip_to_content_slot.name,
     		type: "slot",
-    		source: "(335:2) <svelte:fragment slot=\\\"skip-to-content\\\">",
+    		source: "(336:2) <svelte:fragment slot=\\\"skip-to-content\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (354:29) 
+    // (355:29) 
     function create_if_block_8(ctx) {
     	let edit;
     	let updating_theme;
@@ -32703,14 +32703,14 @@ var app = (function () {
     		block,
     		id: create_if_block_8.name,
     		type: "if",
-    		source: "(354:29) ",
+    		source: "(355:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (352:33) 
+    // (353:33) 
     function create_if_block_7(ctx) {
     	let mainexercise;
     	let updating_mode;
@@ -32858,14 +32858,14 @@ var app = (function () {
     		block,
     		id: create_if_block_7.name,
     		type: "if",
-    		source: "(352:33) ",
+    		source: "(353:33) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (350:29) 
+    // (351:29) 
     function create_if_block_6(ctx) {
     	let settings;
     	let updating_theme;
@@ -32945,14 +32945,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6.name,
     		type: "if",
-    		source: "(350:29) ",
+    		source: "(351:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (348:25) 
+    // (349:25) 
     function create_if_block_5(ctx) {
     	let info;
     	let current;
@@ -32991,14 +32991,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(348:25) ",
+    		source: "(349:25) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (346:0) {#if view == "main"}
+    // (347:0) {#if view == "main"}
     function create_if_block_4(ctx) {
     	let main;
     	let updating_fastinginprogress;
@@ -33093,14 +33093,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(346:0) {#if view == \\\"main\\\"}",
+    		source: "(347:0) {#if view == \\\"main\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (368:0) {#if loading}
+    // (369:0) {#if loading}
     function create_if_block(ctx) {
     	let div;
     	let p;
@@ -33110,9 +33110,9 @@ var app = (function () {
     			div = element("div");
     			p = element("p");
     			p.textContent = "Loading....";
-    			add_location(p, file, 369, 0, 14260);
+    			add_location(p, file, 370, 0, 14311);
     			attr_dev(div, "class", "startup svelte-o4bbad");
-    			add_location(div, file, 368, 0, 14238);
+    			add_location(div, file, 369, 0, 14289);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -33127,7 +33127,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(368:0) {#if loading}",
+    		source: "(369:0) {#if loading}",
     		ctx
     	});
 
@@ -33428,6 +33428,7 @@ var app = (function () {
     	}
 
     	function saveSettings() {
+    		plugin.storage.setItem('configuration', config);
     		showMain();
     	}
 

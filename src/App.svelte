@@ -147,6 +147,7 @@ let isAddMode = false;
  }
 
  function saveSettings(){
+  plugin.storage.setItem('configuration', config);
   showMain();
  }
 
