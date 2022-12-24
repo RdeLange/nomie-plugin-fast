@@ -19,15 +19,16 @@
   import Information from "carbon-icons-svelte/lib/Information.svelte";
   import { saveToLS, readFromLS } from './storage/storage';
 
-  const pluginname = "Nomie Fasting";
+  const pluginname = "Fasting Plugin";
   const pluginemoji = "⏲";
+  var parent = "";
   
   const plugin = new NomiePlugin({
         name: pluginname,
         emoji: pluginemoji,
         avatar: "data:image/jpeg;base64,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",
         description: "Intermitted Fasting Timer",
-        uses: ["createNote", "onLaunch", "getLocation","selectTrackables","getTrackable"],
+        uses: ["createNote", "getLocation","selectTrackables","getTrackable"],
         version: "0.5",
         addToCaptureMenu: true,
         addToMoreMenu: true,
@@ -50,6 +51,7 @@
 
   // Load init params
   function loadInitParams() {
+    parent = getParentUrl();
     plugin.onUIOpened(async () => {
       mode = 'modal';
     });
@@ -107,6 +109,25 @@
     else {
       theme = "white"}
  }
+
+ // Get parent
+ function getParentUrl() {
+    var isInIframe = (parent !== window),
+        parentUrl = null;
+
+    var parentfound = null;
+    
+    if (isInIframe) {
+        parentUrl = document.referrer;
+    }
+
+    if (parentUrl.includes("nomie") ) {
+      parentfound = "Nomie"
+    }
+    else {parentfound = "Smarter4Ever"}
+
+    return parentfound;
+}
 
  
 //view main page
@@ -203,7 +224,7 @@ const startfast = event => {
     }
 }
 
-// Method to add a breathing    
+// Method to add a fast    
 const addfast = () => {
 		
 		if (isEditMode) {
@@ -332,7 +353,7 @@ const logFast = (event) => {
 <Theme bind:theme />
 {#if inNomie}
 {#if mode == "modal"}
-<Header company="Nomie6" platformName={pluginname} on:click={showMain}>
+<Header company={parent} platformName={pluginname} on:click={showMain}>
   <svelte:fragment slot="skip-to-content">
     <SkipToContent />
   </svelte:fragment>
@@ -347,7 +368,7 @@ const logFast = (event) => {
 {#if view == "main"}
 <Main pluginname={pluginname} pluginemoji={pluginemoji} bind:fastinginprogress={currentexercise.fasting} bind:amountofcards={amountofcards} bind:fasts={fasts} on:startfast={startfast} on:addnew={()=>{newfast()}} on:addbytemplate={saveTemplate} on:deletefast={deletefast} on:editfast={editMode} on:showfastinfo={showfastinfo} on:showexercise={showMainExercise}/>
 {:else if view == "info"}
-<Info pluginname={pluginname} pluginemoji={pluginemoji} on:exitinfo={showMain}/>
+<Info parent={parent} pluginname={pluginname} pluginemoji={pluginemoji} on:exitinfo={showMain}/>
 {:else if view == "settings"}
 <Settings pluginname={pluginname} pluginemoji={pluginemoji} bind:theme={theme} on:resetall={resetAll} on:savetemplate={saveTemplate} bind:config plugin={plugin} on:savesettings={saveSettings} on:exitsettings={()=>{showMain()}}/>
 {:else if view == "mainexercise"}
@@ -363,7 +384,7 @@ const logFast = (event) => {
 {:else if !inNomie}
         <h1 style="text-align:center">{pluginemoji}</h1>
         <h2 style="text-align:center">{pluginname}</h2>
-        <h5 style="text-align:center">This is a plugin for Nomie</h5>
+        <h5 style="text-align:center">This is a plugin for {parent}</h5>
         <hr>
 {/if}
 {#if loading}
