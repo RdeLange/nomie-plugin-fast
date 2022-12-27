@@ -31,7 +31,7 @@
             <h5 style="text-align:center">General Information</h5>
             <hr>
             <h4>General:</h4>
-            <h6>This is a plugin for {parent}}. This plugin will support guided fasting. After a fasting period the plugin will log the results (mood & total time) in {parent}</h6>
+            <h6>This is a plugin for {parent}. This plugin will support guided fasting. After a fasting period the plugin will log the results (mood & total time) in {parent}</h6>
             <hr><br>
             <h4>Licence:</h4>
             <h6>The {parent} Fast Plugin is licenced under the MIT licence</h6>
