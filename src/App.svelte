@@ -372,7 +372,7 @@ const logFast = (event) => {
 {:else if view == "settings"}
 <Settings pluginname={pluginname} pluginemoji={pluginemoji} bind:theme={theme} on:resetall={resetAll} on:savetemplate={saveTemplate} bind:config plugin={plugin} on:savesettings={saveSettings} on:exitsettings={()=>{showMain()}}/>
 {:else if view == "mainexercise"}
-<MainExercise bind:mode={mode} pluginname={pluginname} pluginemoji={pluginemoji} plugin={plugin} bind:config={config} bind:current={currentexercise} bind:fastname={fastname} bind:fastduration={fastduration} bind:fastdescription={fastdescription} on:exitexercise={showMain} on:storecurrentfast={storeCurrentFast} on:storeprevious={storePrevious} on:logfast={logFast}/>
+<MainExercise bind:mode={mode} pluginname={pluginname} pluginemoji={pluginemoji} parent={parent} plugin={plugin} bind:config={config} bind:current={currentexercise} bind:fastname={fastname} bind:fastduration={fastduration} bind:fastdescription={fastdescription} on:exitexercise={showMain} on:storecurrentfast={storeCurrentFast} on:storeprevious={storePrevious} on:logfast={logFast}/>
 {:else if view == "mainedit"}
 <Edit pluginname={pluginname} pluginemoji={pluginemoji} bind:theme={theme} on:addnew={addfast} on:savefast={addfast} on:exitedit={()=>{view="main"; isEditMode=false; isAddMode=false;}} bind:name={fastname} bind:description={fastdescription} bind:color={color} bind:duration={fastduration}></Edit>
 {/if}

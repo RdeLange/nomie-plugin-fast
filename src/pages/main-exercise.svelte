@@ -20,6 +20,7 @@
    export let plugin;
    export let config;
    export let mode;
+   export let parent;
    
    let status = "About to start Fasting";
    if(current.fasting){
@@ -179,7 +180,7 @@ function startFast() {
         // store fast
         if(config.trackers[0] != "none" || config.trackers[1] != "none") {
         var res = {};
-        res = await plugin.confirm('Save Results?', 'Concratulations, you finished your fasting period. Would you like to log your results in Nomie?');
+        res = await plugin.confirm('Save Results?', 'Concratulations, you finished your fasting period. Would you like to log your results in '+parent+'?');
          if (res.value) {
             var res2 ={}
             var mood = 0;
@@ -188,7 +189,7 @@ function startFast() {
             if(config.trackeroverrule){
   
     var res3 = {};
-    res3 = await plugin.confirm('Log session to Nomie', 'This will log your session in Nomie as you configured via settings');
+    res3 = await plugin.confirm('Log session to '+parent, 'This will log your session in '+parent+' as you configured via settings');
    // res.value = confirm("Log session");
       if (res3.value) {
         let trackinglog ="";
@@ -203,7 +204,7 @@ function startFast() {
         let logentry = config.logentry;
         logentry = logentry.replace("<duration>", finaltime.toString());
         logentry = logentry.replace("<fast>", current.name);
-        const note = "Nomie Fast ⏲:\n"+logentry+"\n\n"+trackinglog;
+        const note = parent+ " Fast ⏲:\n"+logentry+"\n\n"+trackinglog;
         dispatch("logfast",note);
         }
       }
@@ -237,7 +238,7 @@ function startFast() {
     }} 
     else {
         console.log("Nothing will be saved as settings are not configured")
-        plugin.alert("Concratulation!", "Concratulations, you finalised a fasting. You do not have any settings on how to log this in Nomie so nothing will be logged");
+        plugin.alert("Concratulation!", "Concratulations, you finalised a fasting. You do not have any settings on how to log this in "+parent+" so nothing will be logged");
         start = {name:"",description:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
         storeCurrrentFast();
         // reset display

@@ -124,7 +124,7 @@
       </Row>
     </Grid>
     <Tile>
-    <h4>Nomie Log Settings:</h4>
+    <h4>Log Settings:</h4>
       <Checkbox disabled labelText="Overrule individual Tracker Alignment" bind:trackeroverrule />
       <h3>Fast Mood:</h3>
       <tr>
