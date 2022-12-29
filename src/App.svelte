@@ -84,19 +84,21 @@
         else {theme = "g100"}}  
       else {theme = "g10"} 
     })
-
-    setTimeout(() => {
-      if (loading) {
-        inNomie = false;
-      }
-      else {
-        amountofcards = fasts.length;
+    amountofcards = fasts.length;
         if (currentexercise.fasting){
-        view="mainexercise";
-      }
+        view="mainexercise";}
+   // setTimeout(() => {
+    //  if (loading) {
+    //    inNomie = false;
+    //  }
+    //  else {
+   //     amountofcards = fasts.length;
+   //     if (currentexercise.fasting){
+   //     view="mainexercise";
+     // }
 
-      }
-    }, 400);
+   //   }
+    //}, 400);
   }
 
   // change theme
