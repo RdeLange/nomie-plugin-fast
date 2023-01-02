@@ -19128,7 +19128,7 @@ var app = (function () {
     			h60 = element("h6");
     			t9 = text("This is a plugin for ");
     			t10 = text(/*parent*/ ctx[2]);
-    			t11 = text("}. This plugin will support guided fasting. After a fasting period the plugin will log the results (mood & total time) in ");
+    			t11 = text(". This plugin will support guided fasting. After a fasting period the plugin will log the results (mood & total time) in ");
     			t12 = text(/*parent*/ ctx[2]);
     			t13 = space();
     			hr1 = element("hr");
@@ -19164,18 +19164,18 @@ var app = (function () {
     			add_location(h40, file$9, 32, 12, 696);
     			attr_dev(h60, "class", "svelte-gjbk59");
     			add_location(h60, file$9, 33, 12, 726);
-    			add_location(hr1, file$9, 34, 12, 907);
-    			add_location(br0, file$9, 34, 16, 911);
-    			add_location(h41, file$9, 35, 12, 928);
+    			add_location(hr1, file$9, 34, 12, 906);
+    			add_location(br0, file$9, 34, 16, 910);
+    			add_location(h41, file$9, 35, 12, 927);
     			attr_dev(h61, "class", "svelte-gjbk59");
-    			add_location(h61, file$9, 36, 12, 958);
+    			add_location(h61, file$9, 36, 12, 957);
     			attr_dev(h62, "class", "svelte-gjbk59");
-    			add_location(h62, file$9, 37, 12, 1038);
-    			add_location(hr2, file$9, 42, 12, 2168);
-    			add_location(br1, file$9, 42, 16, 2172);
-    			add_location(h42, file$9, 43, 12, 2189);
+    			add_location(h62, file$9, 37, 12, 1037);
+    			add_location(hr2, file$9, 42, 12, 2167);
+    			add_location(br1, file$9, 42, 16, 2171);
+    			add_location(h42, file$9, 43, 12, 2188);
     			attr_dev(h63, "class", "svelte-gjbk59");
-    			add_location(h63, file$9, 44, 12, 2219);
+    			add_location(h63, file$9, 44, 12, 2218);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -19375,9 +19375,9 @@ var app = (function () {
     			create_component(button.$$.fragment);
     			t1 = space();
     			br1 = element("br");
-    			add_location(br0, file$9, 49, 12, 2348);
-    			add_location(span, file$9, 50, 13, 2366);
-    			add_location(br1, file$9, 51, 13, 2456);
+    			add_location(br0, file$9, 49, 12, 2347);
+    			add_location(span, file$9, 50, 13, 2365);
+    			add_location(br1, file$9, 51, 13, 2455);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -20478,7 +20478,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			h4 = element("h4");
-    			h4.textContent = "Nomie Log Settings:";
+    			h4.textContent = "Log Settings:";
     			t1 = space();
     			create_component(checkbox.$$.fragment);
     			t2 = space();
@@ -20520,53 +20520,53 @@ var app = (function () {
     			create_component(textinput.$$.fragment);
     			add_location(h4, file$6, 126, 4, 3231);
     			attr_dev(h30, "class", "svelte-t8bjwb");
-    			add_location(h30, file$6, 128, 6, 3365);
-    			add_location(span0, file$6, 130, 72, 3468);
+    			add_location(h30, file$6, 128, 6, 3359);
+    			add_location(span0, file$6, 130, 72, 3462);
     			set_style(td0, "vertical-align", "middle");
     			set_style(td0, "text-align", "center");
     			set_style(td0, "width", "20px");
-    			add_location(td0, file$6, 130, 8, 3404);
-    			add_location(span1, file$6, 131, 72, 3749);
+    			add_location(td0, file$6, 130, 8, 3398);
+    			add_location(span1, file$6, 131, 72, 3743);
     			set_style(td1, "vertical-align", "middle");
     			set_style(td1, "text-align", "center");
     			set_style(td1, "width", "20px");
-    			add_location(td1, file$6, 131, 8, 3685);
+    			add_location(td1, file$6, 131, 8, 3679);
     			set_style(p0, "display", "inline");
     			set_style(p0, "font-weight", "300");
     			set_style(p0, "text-align", "left");
     			set_style(p0, "vertical-align", "middle");
     			attr_dev(p0, "class", "svelte-t8bjwb");
-    			add_location(p0, file$6, 132, 71, 3992);
+    			add_location(p0, file$6, 132, 71, 3986);
     			set_style(td2, "vertical-align", "middle ");
     			set_style(td2, "text-align", "left");
     			set_style(td2, "width", "250px");
-    			add_location(td2, file$6, 132, 8, 3929);
-    			add_location(tr0, file$6, 129, 6, 3391);
+    			add_location(td2, file$6, 132, 8, 3923);
+    			add_location(tr0, file$6, 129, 6, 3385);
     			attr_dev(h31, "class", "svelte-t8bjwb");
-    			add_location(h31, file$6, 134, 5, 4119);
-    			add_location(span2, file$6, 136, 72, 4226);
+    			add_location(h31, file$6, 134, 5, 4113);
+    			add_location(span2, file$6, 136, 72, 4220);
     			set_style(td3, "vertical-align", "middle");
     			set_style(td3, "text-align", "center");
     			set_style(td3, "width", "20px");
-    			add_location(td3, file$6, 136, 8, 4162);
-    			add_location(span3, file$6, 137, 72, 4507);
+    			add_location(td3, file$6, 136, 8, 4156);
+    			add_location(span3, file$6, 137, 72, 4501);
     			set_style(td4, "vertical-align", "middle");
     			set_style(td4, "text-align", "center");
     			set_style(td4, "width", "20px");
-    			add_location(td4, file$6, 137, 8, 4443);
+    			add_location(td4, file$6, 137, 8, 4437);
     			set_style(p1, "display", "inline");
     			set_style(p1, "font-weight", "300");
     			set_style(p1, "text-align", "left");
     			set_style(p1, "vertical-align", "middle");
     			attr_dev(p1, "class", "svelte-t8bjwb");
-    			add_location(p1, file$6, 138, 71, 4751);
+    			add_location(p1, file$6, 138, 71, 4745);
     			set_style(td5, "vertical-align", "middle ");
     			set_style(td5, "text-align", "left");
     			set_style(td5, "width", "250px");
-    			add_location(td5, file$6, 138, 8, 4688);
-    			add_location(tr1, file$6, 135, 6, 4149);
+    			add_location(td5, file$6, 138, 8, 4682);
+    			add_location(tr1, file$6, 135, 6, 4143);
     			attr_dev(h32, "class", "svelte-t8bjwb");
-    			add_location(h32, file$6, 140, 5, 4878);
+    			add_location(h32, file$6, 140, 5, 4872);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h4, anchor);
@@ -20767,10 +20767,10 @@ var app = (function () {
     			br = element("br");
     			t4 = space();
     			create_component(button.$$.fragment);
-    			add_location(h4, file$6, 145, 6, 5167);
+    			add_location(h4, file$6, 145, 6, 5161);
     			attr_dev(h6, "class", "svelte-t8bjwb");
-    			add_location(h6, file$6, 146, 6, 5206);
-    			add_location(br, file$6, 147, 6, 5271);
+    			add_location(h6, file$6, 146, 6, 5200);
+    			add_location(br, file$6, 147, 6, 5265);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h4, anchor);
@@ -20879,9 +20879,9 @@ var app = (function () {
     			create_component(button.$$.fragment);
     			t1 = space();
     			br1 = element("br");
-    			add_location(br0, file$6, 153, 10, 5378);
-    			add_location(span, file$6, 154, 11, 5394);
-    			add_location(br1, file$6, 155, 11, 5502);
+    			add_location(br0, file$6, 153, 10, 5372);
+    			add_location(span, file$6, 154, 11, 5388);
+    			add_location(br1, file$6, 155, 11, 5496);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -20987,9 +20987,9 @@ var app = (function () {
     			create_component(button.$$.fragment);
     			t1 = space();
     			br1 = element("br");
-    			add_location(br0, file$6, 158, 8, 5544);
-    			add_location(span, file$6, 159, 9, 5558);
-    			add_location(br1, file$6, 160, 9, 5653);
+    			add_location(br0, file$6, 158, 8, 5538);
+    			add_location(span, file$6, 159, 9, 5552);
+    			add_location(br1, file$6, 160, 9, 5647);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -21179,8 +21179,8 @@ var app = (function () {
     			br1 = element("br");
     			t4 = space();
     			create_component(row.$$.fragment);
-    			add_location(br0, file$6, 143, 6, 5143);
-    			add_location(br1, file$6, 150, 4, 5338);
+    			add_location(br0, file$6, 143, 6, 5137);
+    			add_location(br1, file$6, 150, 4, 5332);
     		},
     		m: function mount(target, anchor) {
     			mount_component(grid, target, anchor);
@@ -29072,7 +29072,7 @@ var app = (function () {
     const { console: console_1$1 } = globals;
     const file$3 = "src/pages/main-exercise.svelte";
 
-    // (323:29) 
+    // (324:29) 
     function create_if_block_1$1(ctx) {
     	let div;
 
@@ -29090,7 +29090,7 @@ var app = (function () {
     			if_block.c();
     			attr_dev(div, "class", "widget svelte-1tvsfqa");
     			set_style(div, "background-color", /*widgetbgcolor*/ ctx[10]);
-    			add_location(div, file$3, 323, 2, 10408);
+    			add_location(div, file$3, 324, 2, 10450);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -29125,14 +29125,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1$1.name,
     		type: "if",
-    		source: "(323:29) ",
+    		source: "(324:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (257:0) {#if mode == "modal"}
+    // (258:0) {#if mode == "modal"}
     function create_if_block$3(ctx) {
     	let content;
     	let current;
@@ -29156,7 +29156,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const content_changes = {};
 
-    			if (dirty[0] & /*buttonview, endtime, starttime, circleClass, digitsdisplay, percenttext, elapsedtime, status, fastname, pluginname, pluginemoji*/ 15319 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*buttonview, endtime, starttime, circleClass, digitsdisplay, percenttext, elapsedtime, status, fastname, pluginname, pluginemoji*/ 15319 | dirty[1] & /*$$scope*/ 16) {
     				content_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29180,14 +29180,14 @@ var app = (function () {
     		block,
     		id: create_if_block$3.name,
     		type: "if",
-    		source: "(257:0) {#if mode == \\\"modal\\\"}",
+    		source: "(258:0) {#if mode == \\\"modal\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (346:1) {:else}
+    // (347:1) {:else}
     function create_else_block(ctx) {
     	let br0;
     	let t0;
@@ -29204,13 +29204,13 @@ var app = (function () {
     			h1 = element("h1");
     			h1.textContent = "YOU'RE NOT FASTING";
     			attr_dev(br0, "class", "svelte-1tvsfqa");
-    			add_location(br0, file$3, 346, 2, 11280);
+    			add_location(br0, file$3, 347, 2, 11322);
     			attr_dev(br1, "class", "svelte-1tvsfqa");
-    			add_location(br1, file$3, 347, 2, 11287);
+    			add_location(br1, file$3, 348, 2, 11329);
     			set_style(h1, "text-align", "center");
     			set_style(h1, "line-height", "40px");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 348, 2, 11294);
+    			add_location(h1, file$3, 349, 2, 11336);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -29233,14 +29233,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(346:1) {:else}",
+    		source: "(347:1) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (325:2) {#if isfasting.fasting}
+    // (326:2) {#if isfasting.fasting}
     function create_if_block_2$1(ctx) {
     	let div7;
     	let div6;
@@ -29288,38 +29288,38 @@ var app = (function () {
     			t8 = space();
     			div4 = element("div");
     			attr_dev(p0, "class", "svelte-1tvsfqa");
-    			add_location(p0, file$3, 331, 20, 10761);
+    			add_location(p0, file$3, 332, 20, 10803);
     			attr_dev(p1, "id", "elapsed-time");
     			attr_dev(p1, "class", "svelte-1tvsfqa");
-    			add_location(p1, file$3, 332, 20, 10802);
+    			add_location(p1, file$3, 333, 20, 10844);
     			attr_dev(div0, "id", "elapsed-div");
     			attr_dev(div0, "class", "svelte-1tvsfqa");
-    			add_location(div0, file$3, 330, 16, 10718);
+    			add_location(div0, file$3, 331, 16, 10760);
     			attr_dev(span, "id", "percent");
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 334, 16, 10880);
+    			add_location(span, file$3, 335, 16, 10922);
     			attr_dev(h1, "id", "digits-display");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 336, 24, 10989);
+    			add_location(h1, file$3, 337, 24, 11031);
     			attr_dev(div1, "id", "timer-display");
     			attr_dev(div1, "class", "svelte-1tvsfqa");
-    			add_location(div1, file$3, 335, 20, 10940);
+    			add_location(div1, file$3, 336, 20, 10982);
     			attr_dev(div2, "id", "circle-text");
     			attr_dev(div2, "class", "svelte-1tvsfqa");
-    			add_location(div2, file$3, 329, 12, 10679);
+    			add_location(div2, file$3, 330, 12, 10721);
     			attr_dev(div3, "class", "first50-bar svelte-1tvsfqa");
-    			add_location(div3, file$3, 340, 14, 11138);
+    			add_location(div3, file$3, 341, 14, 11180);
     			attr_dev(div4, "class", "value-bar svelte-1tvsfqa");
-    			add_location(div4, file$3, 341, 14, 11184);
+    			add_location(div4, file$3, 342, 14, 11226);
     			attr_dev(div5, "class", "left-half-clipper svelte-1tvsfqa");
-    			add_location(div5, file$3, 339, 12, 11092);
+    			add_location(div5, file$3, 340, 12, 11134);
     			attr_dev(div6, "id", "circle");
     			attr_dev(div6, "class", div6_class_value = "" + (null_to_empty(/*circleClass*/ ctx[11]) + " svelte-1tvsfqa"));
     			set_style(div6, "transform", "scale(0.50)");
     			set_style(div6, "margin-top", "-75px");
-    			add_location(div6, file$3, 328, 8, 10578);
+    			add_location(div6, file$3, 329, 8, 10620);
     			attr_dev(div7, "class", "circle-timer-container svelte-1tvsfqa");
-    			add_location(div7, file$3, 326, 2, 10504);
+    			add_location(div7, file$3, 327, 2, 10546);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div7, anchor);
@@ -29361,14 +29361,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2$1.name,
     		type: "if",
-    		source: "(325:2) {#if isfasting.fasting}",
+    		source: "(326:2) {#if isfasting.fasting}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (261:8) <Column>
+    // (262:8) <Column>
     function create_default_slot_20(ctx) {
     	let h1;
     	let t0;
@@ -29394,15 +29394,15 @@ var app = (function () {
     			hr = element("hr");
     			set_style(h1, "text-align", "center");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 261, 10, 8201);
+    			add_location(h1, file$3, 262, 10, 8243);
     			set_style(h2, "text-align", "center");
     			attr_dev(h2, "class", "svelte-1tvsfqa");
-    			add_location(h2, file$3, 262, 10, 8260);
+    			add_location(h2, file$3, 263, 10, 8302);
     			set_style(h5, "text-align", "center");
     			attr_dev(h5, "class", "svelte-1tvsfqa");
-    			add_location(h5, file$3, 263, 10, 8318);
+    			add_location(h5, file$3, 264, 10, 8360);
     			attr_dev(hr, "class", "svelte-1tvsfqa");
-    			add_location(hr, file$3, 264, 10, 8377);
+    			add_location(hr, file$3, 265, 10, 8419);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -29434,14 +29434,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_20.name,
     		type: "slot",
-    		source: "(261:8) <Column>",
+    		source: "(262:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (260:6) <Row>
+    // (261:6) <Row>
     function create_default_slot_19(ctx) {
     	let column;
     	let current;
@@ -29465,7 +29465,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const column_changes = {};
 
-    			if (dirty[0] & /*pluginname, pluginemoji*/ 6 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*pluginname, pluginemoji*/ 6 | dirty[1] & /*$$scope*/ 16) {
     				column_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29489,14 +29489,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_19.name,
     		type: "slot",
-    		source: "(260:6) <Row>",
+    		source: "(261:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (269:8) <Column>
+    // (270:8) <Column>
     function create_default_slot_18(ctx) {
     	let br;
     	let t0;
@@ -29510,10 +29510,10 @@ var app = (function () {
     			h5 = element("h5");
     			t1 = text(/*fastname*/ ctx[0]);
     			attr_dev(br, "class", "svelte-1tvsfqa");
-    			add_location(br, file$3, 269, 10, 8452);
+    			add_location(br, file$3, 270, 10, 8494);
     			set_style(h5, "text-align", "center");
     			attr_dev(h5, "class", "svelte-1tvsfqa");
-    			add_location(h5, file$3, 270, 10, 8467);
+    			add_location(h5, file$3, 271, 10, 8509);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br, anchor);
@@ -29535,14 +29535,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_18.name,
     		type: "slot",
-    		source: "(269:8) <Column>",
+    		source: "(270:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (268:6) <Row>
+    // (269:6) <Row>
     function create_default_slot_17(ctx) {
     	let column;
     	let current;
@@ -29566,7 +29566,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const column_changes = {};
 
-    			if (dirty[0] & /*fastname*/ 1 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*fastname*/ 1 | dirty[1] & /*$$scope*/ 16) {
     				column_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29590,14 +29590,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_17.name,
     		type: "slot",
-    		source: "(268:6) <Row>",
+    		source: "(269:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (275:8) <Column>
+    // (276:8) <Column>
     function create_default_slot_16(ctx) {
     	let h5;
     	let t;
@@ -29608,7 +29608,7 @@ var app = (function () {
     			t = text(/*status*/ ctx[4]);
     			set_style(h5, "text-align", "center");
     			attr_dev(h5, "class", "svelte-1tvsfqa");
-    			add_location(h5, file$3, 275, 10, 8583);
+    			add_location(h5, file$3, 276, 10, 8625);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h5, anchor);
@@ -29626,14 +29626,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_16.name,
     		type: "slot",
-    		source: "(275:8) <Column>",
+    		source: "(276:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (274:6) <Row>
+    // (275:6) <Row>
     function create_default_slot_15(ctx) {
     	let column;
     	let current;
@@ -29657,7 +29657,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const column_changes = {};
 
-    			if (dirty[0] & /*status*/ 16 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*status*/ 16 | dirty[1] & /*$$scope*/ 16) {
     				column_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29681,14 +29681,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_15.name,
     		type: "slot",
-    		source: "(274:6) <Row>",
+    		source: "(275:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (280:8) <Column>
+    // (281:8) <Column>
     function create_default_slot_14(ctx) {
     	let div7;
     	let div6;
@@ -29736,36 +29736,36 @@ var app = (function () {
     			t8 = space();
     			div4 = element("div");
     			attr_dev(p0, "class", "svelte-1tvsfqa");
-    			add_location(p0, file$3, 285, 28, 8945);
+    			add_location(p0, file$3, 286, 28, 8987);
     			attr_dev(p1, "id", "elapsed-time");
     			attr_dev(p1, "class", "svelte-1tvsfqa");
-    			add_location(p1, file$3, 286, 28, 8994);
+    			add_location(p1, file$3, 287, 28, 9036);
     			attr_dev(div0, "id", "elapsed-div");
     			attr_dev(div0, "class", "svelte-1tvsfqa");
-    			add_location(div0, file$3, 284, 24, 8894);
+    			add_location(div0, file$3, 285, 24, 8936);
     			attr_dev(span, "id", "percent");
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 288, 24, 9088);
+    			add_location(span, file$3, 289, 24, 9130);
     			attr_dev(h1, "id", "digits-display");
     			attr_dev(h1, "class", "svelte-1tvsfqa");
-    			add_location(h1, file$3, 290, 32, 9213);
+    			add_location(h1, file$3, 291, 32, 9255);
     			attr_dev(div1, "id", "timer-display");
     			attr_dev(div1, "class", "svelte-1tvsfqa");
-    			add_location(div1, file$3, 289, 28, 9156);
+    			add_location(div1, file$3, 290, 28, 9198);
     			attr_dev(div2, "id", "circle-text");
     			attr_dev(div2, "class", "svelte-1tvsfqa");
-    			add_location(div2, file$3, 283, 20, 8847);
+    			add_location(div2, file$3, 284, 20, 8889);
     			attr_dev(div3, "class", "first50-bar svelte-1tvsfqa");
-    			add_location(div3, file$3, 294, 22, 9394);
+    			add_location(div3, file$3, 295, 22, 9436);
     			attr_dev(div4, "class", "value-bar svelte-1tvsfqa");
-    			add_location(div4, file$3, 295, 22, 9448);
+    			add_location(div4, file$3, 296, 22, 9490);
     			attr_dev(div5, "class", "left-half-clipper svelte-1tvsfqa");
-    			add_location(div5, file$3, 293, 20, 9340);
+    			add_location(div5, file$3, 294, 20, 9382);
     			attr_dev(div6, "id", "circle");
     			attr_dev(div6, "class", div6_class_value = "" + (null_to_empty(/*circleClass*/ ctx[11]) + " svelte-1tvsfqa"));
-    			add_location(div6, file$3, 282, 16, 8787);
+    			add_location(div6, file$3, 283, 16, 8829);
     			attr_dev(div7, "class", "circle-timer-container svelte-1tvsfqa");
-    			add_location(div7, file$3, 280, 10, 8697);
+    			add_location(div7, file$3, 281, 10, 8739);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div7, anchor);
@@ -29807,14 +29807,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_14.name,
     		type: "slot",
-    		source: "(280:8) <Column>",
+    		source: "(281:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (279:6) <Row>
+    // (280:6) <Row>
     function create_default_slot_13(ctx) {
     	let column;
     	let current;
@@ -29838,7 +29838,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const column_changes = {};
 
-    			if (dirty[0] & /*circleClass, digitsdisplay, percenttext, elapsedtime*/ 2944 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*circleClass, digitsdisplay, percenttext, elapsedtime*/ 2944 | dirty[1] & /*$$scope*/ 16) {
     				column_changes.$$scope = { dirty, ctx };
     			}
 
@@ -29862,14 +29862,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_13.name,
     		type: "slot",
-    		source: "(279:6) <Row>",
+    		source: "(280:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (302:8) <Column>
+    // (303:8) <Column>
     function create_default_slot_12(ctx) {
     	let p;
 
@@ -29880,7 +29880,7 @@ var app = (function () {
     			set_style(p, "text-align", "left");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 301, 16, 9593);
+    			add_location(p, file$3, 302, 16, 9635);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -29895,14 +29895,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_12.name,
     		type: "slot",
-    		source: "(302:8) <Column>",
+    		source: "(303:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (303:8) <Column>
+    // (304:8) <Column>
     function create_default_slot_11(ctx) {
     	let p;
 
@@ -29913,7 +29913,7 @@ var app = (function () {
     			set_style(p, "text-align", "right");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 302, 16, 9686);
+    			add_location(p, file$3, 303, 16, 9728);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -29928,14 +29928,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_11.name,
     		type: "slot",
-    		source: "(303:8) <Column>",
+    		source: "(304:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (301:6) <Row>
+    // (302:6) <Row>
     function create_default_slot_10(ctx) {
     	let column0;
     	let t;
@@ -29973,14 +29973,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const column0_changes = {};
 
-    			if (dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[1] & /*$$scope*/ 16) {
     				column0_changes.$$scope = { dirty, ctx };
     			}
 
     			column0.$set(column0_changes);
     			const column1_changes = {};
 
-    			if (dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[1] & /*$$scope*/ 16) {
     				column1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30008,14 +30008,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(301:6) <Row>",
+    		source: "(302:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (306:8) <Column>
+    // (307:8) <Column>
     function create_default_slot_9(ctx) {
     	let p;
     	let t;
@@ -30027,7 +30027,7 @@ var app = (function () {
     			set_style(p, "text-align", "left");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 305, 16, 9798);
+    			add_location(p, file$3, 306, 16, 9840);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -30045,14 +30045,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(306:8) <Column>",
+    		source: "(307:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (307:8) <Column>
+    // (308:8) <Column>
     function create_default_slot_8(ctx) {
     	let p;
     	let t;
@@ -30064,7 +30064,7 @@ var app = (function () {
     			set_style(p, "text-align", "right");
     			set_style(p, "font-size", "0.875em");
     			attr_dev(p, "class", "svelte-1tvsfqa");
-    			add_location(p, file$3, 306, 16, 9886);
+    			add_location(p, file$3, 307, 16, 9928);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -30082,14 +30082,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(307:8) <Column>",
+    		source: "(308:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (305:6) <Row>
+    // (306:6) <Row>
     function create_default_slot_7(ctx) {
     	let column0;
     	let t;
@@ -30127,14 +30127,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const column0_changes = {};
 
-    			if (dirty[0] & /*starttime*/ 4096 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*starttime*/ 4096 | dirty[1] & /*$$scope*/ 16) {
     				column0_changes.$$scope = { dirty, ctx };
     			}
 
     			column0.$set(column0_changes);
     			const column1_changes = {};
 
-    			if (dirty[0] & /*endtime*/ 8192 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*endtime*/ 8192 | dirty[1] & /*$$scope*/ 16) {
     				column1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30162,14 +30162,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(305:6) <Row>",
+    		source: "(306:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (312:19) <Button style="width:100%" kind="secondary" on:click={()=>{dispatch("exitexercise")}}>
+    // (313:19) <Button style="width:100%" kind="secondary" on:click={()=>{dispatch("exitexercise")}}>
     function create_default_slot_6(ctx) {
     	let t;
 
@@ -30189,14 +30189,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(312:19) <Button style=\\\"width:100%\\\" kind=\\\"secondary\\\" on:click={()=>{dispatch(\\\"exitexercise\\\")}}>",
+    		source: "(313:19) <Button style=\\\"width:100%\\\" kind=\\\"secondary\\\" on:click={()=>{dispatch(\\\"exitexercise\\\")}}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (310:8) <Column>
+    // (311:8) <Column>
     function create_default_slot_5(ctx) {
     	let br0;
     	let t0;
@@ -30216,7 +30216,7 @@ var app = (function () {
     			$$inline: true
     		});
 
-    	button.$on("click", /*click_handler*/ ctx[21]);
+    	button.$on("click", /*click_handler*/ ctx[22]);
 
     	const block = {
     		c: function create() {
@@ -30227,11 +30227,11 @@ var app = (function () {
     			t1 = space();
     			br1 = element("br");
     			attr_dev(br0, "class", "svelte-1tvsfqa");
-    			add_location(br0, file$3, 310, 12, 10011);
+    			add_location(br0, file$3, 311, 12, 10053);
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 311, 13, 10029);
+    			add_location(span, file$3, 312, 13, 10071);
     			attr_dev(br1, "class", "svelte-1tvsfqa");
-    			add_location(br1, file$3, 312, 13, 10155);
+    			add_location(br1, file$3, 313, 13, 10197);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -30245,7 +30245,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const button_changes = {};
 
-    			if (dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[1] & /*$$scope*/ 16) {
     				button_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30274,14 +30274,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(310:8) <Column>",
+    		source: "(311:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (317:17) <Button style="width:100%" on:click={buttonClicked}>
+    // (318:17) <Button style="width:100%" on:click={buttonClicked}>
     function create_default_slot_4(ctx) {
     	let t;
 
@@ -30304,14 +30304,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(317:17) <Button style=\\\"width:100%\\\" on:click={buttonClicked}>",
+    		source: "(318:17) <Button style=\\\"width:100%\\\" on:click={buttonClicked}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (315:6) <Column>
+    // (316:6) <Column>
     function create_default_slot_3(ctx) {
     	let br0;
     	let t0;
@@ -30341,11 +30341,11 @@ var app = (function () {
     			t1 = space();
     			br1 = element("br");
     			attr_dev(br0, "class", "svelte-1tvsfqa");
-    			add_location(br0, file$3, 315, 10, 10203);
+    			add_location(br0, file$3, 316, 10, 10245);
     			attr_dev(span, "class", "svelte-1tvsfqa");
-    			add_location(span, file$3, 316, 11, 10219);
+    			add_location(span, file$3, 317, 11, 10261);
     			attr_dev(br1, "class", "svelte-1tvsfqa");
-    			add_location(br1, file$3, 317, 11, 10317);
+    			add_location(br1, file$3, 318, 11, 10359);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, br0, anchor);
@@ -30359,7 +30359,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const button_changes = {};
 
-    			if (dirty[0] & /*buttonview*/ 64 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*buttonview*/ 64 | dirty[1] & /*$$scope*/ 16) {
     				button_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30388,14 +30388,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(315:6) <Column>",
+    		source: "(316:6) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (309:6) <Row>
+    // (310:6) <Row>
     function create_default_slot_2(ctx) {
     	let column0;
     	let t;
@@ -30433,14 +30433,14 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const column0_changes = {};
 
-    			if (dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[1] & /*$$scope*/ 16) {
     				column0_changes.$$scope = { dirty, ctx };
     			}
 
     			column0.$set(column0_changes);
     			const column1_changes = {};
 
-    			if (dirty[0] & /*buttonview*/ 64 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*buttonview*/ 64 | dirty[1] & /*$$scope*/ 16) {
     				column1_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30468,14 +30468,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(309:6) <Row>",
+    		source: "(310:6) <Row>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (259:4) <Grid>
+    // (260:4) <Grid>
     function create_default_slot_1$1(ctx) {
     	let row0;
     	let t0;
@@ -30583,49 +30583,49 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const row0_changes = {};
 
-    			if (dirty[0] & /*pluginname, pluginemoji*/ 6 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*pluginname, pluginemoji*/ 6 | dirty[1] & /*$$scope*/ 16) {
     				row0_changes.$$scope = { dirty, ctx };
     			}
 
     			row0.$set(row0_changes);
     			const row1_changes = {};
 
-    			if (dirty[0] & /*fastname*/ 1 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*fastname*/ 1 | dirty[1] & /*$$scope*/ 16) {
     				row1_changes.$$scope = { dirty, ctx };
     			}
 
     			row1.$set(row1_changes);
     			const row2_changes = {};
 
-    			if (dirty[0] & /*status*/ 16 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*status*/ 16 | dirty[1] & /*$$scope*/ 16) {
     				row2_changes.$$scope = { dirty, ctx };
     			}
 
     			row2.$set(row2_changes);
     			const row3_changes = {};
 
-    			if (dirty[0] & /*circleClass, digitsdisplay, percenttext, elapsedtime*/ 2944 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*circleClass, digitsdisplay, percenttext, elapsedtime*/ 2944 | dirty[1] & /*$$scope*/ 16) {
     				row3_changes.$$scope = { dirty, ctx };
     			}
 
     			row3.$set(row3_changes);
     			const row4_changes = {};
 
-    			if (dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[1] & /*$$scope*/ 16) {
     				row4_changes.$$scope = { dirty, ctx };
     			}
 
     			row4.$set(row4_changes);
     			const row5_changes = {};
 
-    			if (dirty[0] & /*endtime, starttime*/ 12288 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*endtime, starttime*/ 12288 | dirty[1] & /*$$scope*/ 16) {
     				row5_changes.$$scope = { dirty, ctx };
     			}
 
     			row5.$set(row5_changes);
     			const row6_changes = {};
 
-    			if (dirty[0] & /*buttonview*/ 64 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*buttonview*/ 64 | dirty[1] & /*$$scope*/ 16) {
     				row6_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30673,14 +30673,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1$1.name,
     		type: "slot",
-    		source: "(259:4) <Grid>",
+    		source: "(260:4) <Grid>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (258:0) <Content>
+    // (259:0) <Content>
     function create_default_slot$1(ctx) {
     	let grid;
     	let current;
@@ -30704,7 +30704,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const grid_changes = {};
 
-    			if (dirty[0] & /*buttonview, endtime, starttime, circleClass, digitsdisplay, percenttext, elapsedtime, status, fastname, pluginname, pluginemoji*/ 15319 | dirty[1] & /*$$scope*/ 8) {
+    			if (dirty[0] & /*buttonview, endtime, starttime, circleClass, digitsdisplay, percenttext, elapsedtime, status, fastname, pluginname, pluginemoji*/ 15319 | dirty[1] & /*$$scope*/ 16) {
     				grid_changes.$$scope = { dirty, ctx };
     			}
 
@@ -30728,7 +30728,7 @@ var app = (function () {
     		block,
     		id: create_default_slot$1.name,
     		type: "slot",
-    		source: "(258:0) <Content>",
+    		source: "(259:0) <Content>",
     		ctx
     	});
 
@@ -30850,6 +30850,7 @@ var app = (function () {
     	let { plugin } = $$props;
     	let { config } = $$props;
     	let { mode } = $$props;
+    	let { parent } = $$props;
     	let status = "About to start Fasting";
 
     	if (current.fasting) {
@@ -31026,7 +31027,7 @@ var app = (function () {
     		// store fast
     		if (config.trackers[0] != "none" || config.trackers[1] != "none") {
     			var res = {};
-    			res = await plugin.confirm('Save Results?', 'Concratulations, you finished your fasting period. Would you like to log your results in Nomie?');
+    			res = await plugin.confirm('Save Results?', 'Concratulations, you finished your fasting period. Would you like to log your results in ' + parent + '?');
 
     			if (res.value) {
     				var res2 = {};
@@ -31039,7 +31040,7 @@ var app = (function () {
 
     				if (config.trackeroverrule) {
     					var res3 = {};
-    					res3 = await plugin.confirm('Log session to Nomie', 'This will log your session in Nomie as you configured via settings');
+    					res3 = await plugin.confirm('Log session to ' + parent, 'This will log your session in ' + parent + ' as you configured via settings');
 
     					// res.value = confirm("Log session");
     					if (res3.value) {
@@ -31058,7 +31059,7 @@ var app = (function () {
     						let logentry = config.logentry;
     						logentry = logentry.replace("<duration>", finaltime.toString());
     						logentry = logentry.replace("<fast>", current.name);
-    						const note = "Nomie Fast ⏲:\n" + logentry + "\n\n" + trackinglog;
+    						const note = parent + " Fast ⏲:\n" + logentry + "\n\n" + trackinglog;
     						dispatch("logfast", note);
     					}
     				}
@@ -31121,7 +31122,7 @@ var app = (function () {
     			}
     		} else {
     			console.log("Nothing will be saved as settings are not configured");
-    			plugin.alert("Concratulation!", "Concratulations, you finalised a fasting. You do not have any settings on how to log this in Nomie so nothing will be logged");
+    			plugin.alert("Concratulation!", "Concratulations, you finalised a fasting. You do not have any settings on how to log this in " + parent + " so nothing will be logged");
 
     			start = {
     				name: "",
@@ -31160,7 +31161,8 @@ var app = (function () {
     		'current',
     		'plugin',
     		'config',
-    		'mode'
+    		'mode',
+    		'parent'
     	];
 
     	Object.keys($$props).forEach(key => {
@@ -31181,6 +31183,7 @@ var app = (function () {
     		if ('plugin' in $$props) $$invalidate(19, plugin = $$props.plugin);
     		if ('config' in $$props) $$invalidate(20, config = $$props.config);
     		if ('mode' in $$props) $$invalidate(3, mode = $$props.mode);
+    		if ('parent' in $$props) $$invalidate(21, parent = $$props.parent);
     	};
 
     	$$self.$capture_state = () => ({
@@ -31202,6 +31205,7 @@ var app = (function () {
     		plugin,
     		config,
     		mode,
+    		parent,
     		status,
     		isfasting,
     		buttonview,
@@ -31239,6 +31243,7 @@ var app = (function () {
     		if ('plugin' in $$props) $$invalidate(19, plugin = $$props.plugin);
     		if ('config' in $$props) $$invalidate(20, config = $$props.config);
     		if ('mode' in $$props) $$invalidate(3, mode = $$props.mode);
+    		if ('parent' in $$props) $$invalidate(21, parent = $$props.parent);
     		if ('status' in $$props) $$invalidate(4, status = $$props.status);
     		if ('isfasting' in $$props) $$invalidate(5, isfasting = $$props.isfasting);
     		if ('buttonview' in $$props) $$invalidate(6, buttonview = $$props.buttonview);
@@ -31247,7 +31252,7 @@ var app = (function () {
     		if ('elapsedtime' in $$props) $$invalidate(9, elapsedtime = $$props.elapsedtime);
     		if ('widgetbgcolor' in $$props) $$invalidate(10, widgetbgcolor = $$props.widgetbgcolor);
     		if ('start' in $$props) start = $$props.start;
-    		if ('currentFast' in $$props) $$invalidate(27, currentFast = $$props.currentFast);
+    		if ('currentFast' in $$props) $$invalidate(28, currentFast = $$props.currentFast);
     		if ('circleClass' in $$props) $$invalidate(11, circleClass = $$props.circleClass);
     		if ('refreshTimer' in $$props) refreshTimer = $$props.refreshTimer;
     		if ('percent' in $$props) percent = $$props.percent;
@@ -31302,6 +31307,7 @@ var app = (function () {
     		current,
     		plugin,
     		config,
+    		parent,
     		click_handler
     	];
     }
@@ -31325,7 +31331,8 @@ var app = (function () {
     				current: 18,
     				plugin: 19,
     				config: 20,
-    				mode: 3
+    				mode: 3,
+    				parent: 21
     			},
     			null,
     			[-1, -1]
@@ -31363,6 +31370,10 @@ var app = (function () {
 
     		if (/*mode*/ ctx[3] === undefined && !('mode' in props)) {
     			console_1$1.warn("<Main_exercise> was created without expected prop 'mode'");
+    		}
+
+    		if (/*parent*/ ctx[21] === undefined && !('parent' in props)) {
+    			console_1$1.warn("<Main_exercise> was created without expected prop 'parent'");
     		}
     	}
 
@@ -31435,6 +31446,14 @@ var app = (function () {
     	}
 
     	set mode(value) {
+    		throw new Error("<Main_exercise>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	get parent() {
+    		throw new Error("<Main_exercise>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set parent(value) {
     		throw new Error("<Main_exercise>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
@@ -31883,7 +31902,7 @@ var app = (function () {
     const { console: console_1 } = globals;
     const file = "src/App.svelte";
 
-    // (384:19) 
+    // (383:19) 
     function create_if_block_10(ctx) {
     	let h1;
     	let t1;
@@ -31909,12 +31928,12 @@ var app = (function () {
     			t6 = space();
     			hr = element("hr");
     			set_style(h1, "text-align", "center");
-    			add_location(h1, file, 384, 8, 14483);
+    			add_location(h1, file, 383, 8, 14453);
     			set_style(h2, "text-align", "center");
-    			add_location(h2, file, 385, 8, 14540);
+    			add_location(h2, file, 384, 8, 14510);
     			set_style(h5, "text-align", "center");
-    			add_location(h5, file, 386, 8, 14596);
-    			add_location(hr, file, 387, 8, 14669);
+    			add_location(h5, file, 385, 8, 14566);
+    			add_location(hr, file, 386, 8, 14639);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -31947,14 +31966,14 @@ var app = (function () {
     		block,
     		id: create_if_block_10.name,
     		type: "if",
-    		source: "(384:19) ",
+    		source: "(383:19) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (352:0) {#if mode == "modal"  || mode =="widget"}
+    // (351:0) {#if mode == "modal"  || mode =="widget"}
     function create_if_block_1(ctx) {
     	let theme_1;
     	let updating_theme;
@@ -32047,14 +32066,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(352:0) {#if mode == \\\"modal\\\"  || mode ==\\\"widget\\\"}",
+    		source: "(351:0) {#if mode == \\\"modal\\\"  || mode ==\\\"widget\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (354:0) {#if inNomie}
+    // (353:0) {#if inNomie}
     function create_if_block_2(ctx) {
     	let current_block_type_index;
     	let if_block;
@@ -32144,14 +32163,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(354:0) {#if inNomie}",
+    		source: "(353:0) {#if inNomie}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (379:27) 
+    // (378:27) 
     function create_if_block_9(ctx) {
     	let mainexercise;
     	let updating_mode;
@@ -32299,14 +32318,14 @@ var app = (function () {
     		block,
     		id: create_if_block_9.name,
     		type: "if",
-    		source: "(379:27) ",
+    		source: "(378:27) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (355:0) {#if mode == "modal"}
+    // (354:0) {#if mode == "modal"}
     function create_if_block_3(ctx) {
     	let header;
     	let t;
@@ -32375,7 +32394,7 @@ var app = (function () {
     			const header_changes = {};
     			if (dirty[0] & /*parent*/ 1) header_changes.company = /*parent*/ ctx[0];
 
-    			if (dirty[2] & /*$$scope*/ 256) {
+    			if (dirty[2] & /*$$scope*/ 128) {
     				header_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32442,14 +32461,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(355:0) {#if mode == \\\"modal\\\"}",
+    		source: "(354:0) {#if mode == \\\"modal\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (360:2) <HeaderUtilities>
+    // (359:2) <HeaderUtilities>
     function create_default_slot_1(ctx) {
     	let headerglobalaction0;
     	let t0;
@@ -32525,14 +32544,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(360:2) <HeaderUtilities>",
+    		source: "(359:2) <HeaderUtilities>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (356:0) <Header company={parent} platformName={pluginname} on:click={showMain}>
+    // (355:0) <Header company={parent} platformName={pluginname} on:click={showMain}>
     function create_default_slot(ctx) {
     	let headerutilities;
     	let current;
@@ -32556,7 +32575,7 @@ var app = (function () {
     		p: function update(ctx, dirty) {
     			const headerutilities_changes = {};
 
-    			if (dirty[2] & /*$$scope*/ 256) {
+    			if (dirty[2] & /*$$scope*/ 128) {
     				headerutilities_changes.$$scope = { dirty, ctx };
     			}
 
@@ -32580,14 +32599,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(356:0) <Header company={parent} platformName={pluginname} on:click={showMain}>",
+    		source: "(355:0) <Header company={parent} platformName={pluginname} on:click={showMain}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (357:2) <svelte:fragment slot="skip-to-content">
+    // (356:2) <svelte:fragment slot="skip-to-content">
     function create_skip_to_content_slot(ctx) {
     	let skiptocontent;
     	let current;
@@ -32619,14 +32638,14 @@ var app = (function () {
     		block,
     		id: create_skip_to_content_slot.name,
     		type: "slot",
-    		source: "(357:2) <svelte:fragment slot=\\\"skip-to-content\\\">",
+    		source: "(356:2) <svelte:fragment slot=\\\"skip-to-content\\\">",
     		ctx
     	});
 
     	return block;
     }
 
-    // (376:29) 
+    // (375:29) 
     function create_if_block_8(ctx) {
     	let edit;
     	let updating_theme;
@@ -32749,14 +32768,14 @@ var app = (function () {
     		block,
     		id: create_if_block_8.name,
     		type: "if",
-    		source: "(376:29) ",
+    		source: "(375:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (374:33) 
+    // (373:33) 
     function create_if_block_7(ctx) {
     	let mainexercise;
     	let updating_mode;
@@ -32794,6 +32813,7 @@ var app = (function () {
     	let mainexercise_props = {
     		pluginname,
     		pluginemoji,
+    		parent: /*parent*/ ctx[0],
     		plugin: /*plugin*/ ctx[16]
     	};
 
@@ -32847,6 +32867,7 @@ var app = (function () {
     		},
     		p: function update(ctx, dirty) {
     			const mainexercise_changes = {};
+    			if (dirty[0] & /*parent*/ 1) mainexercise_changes.parent = /*parent*/ ctx[0];
 
     			if (!updating_mode && dirty[0] & /*mode*/ 8) {
     				updating_mode = true;
@@ -32904,14 +32925,14 @@ var app = (function () {
     		block,
     		id: create_if_block_7.name,
     		type: "if",
-    		source: "(374:33) ",
+    		source: "(373:33) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (372:29) 
+    // (371:29) 
     function create_if_block_6(ctx) {
     	let settings;
     	let updating_theme;
@@ -32991,14 +33012,14 @@ var app = (function () {
     		block,
     		id: create_if_block_6.name,
     		type: "if",
-    		source: "(372:29) ",
+    		source: "(371:29) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (370:25) 
+    // (369:25) 
     function create_if_block_5(ctx) {
     	let info;
     	let current;
@@ -33045,14 +33066,14 @@ var app = (function () {
     		block,
     		id: create_if_block_5.name,
     		type: "if",
-    		source: "(370:25) ",
+    		source: "(369:25) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (368:0) {#if view == "main"}
+    // (367:0) {#if view == "main"}
     function create_if_block_4(ctx) {
     	let main;
     	let updating_fastinginprogress;
@@ -33147,14 +33168,14 @@ var app = (function () {
     		block,
     		id: create_if_block_4.name,
     		type: "if",
-    		source: "(368:0) {#if view == \\\"main\\\"}",
+    		source: "(367:0) {#if view == \\\"main\\\"}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (390:0) {#if loading}
+    // (389:0) {#if loading}
     function create_if_block(ctx) {
     	let div;
     	let p;
@@ -33164,9 +33185,9 @@ var app = (function () {
     			div = element("div");
     			p = element("p");
     			p.textContent = "Loading....";
-    			add_location(p, file, 391, 0, 14716);
+    			add_location(p, file, 390, 0, 14686);
     			attr_dev(div, "class", "startup svelte-o4bbad");
-    			add_location(div, file, 390, 0, 14694);
+    			add_location(div, file, 389, 0, 14664);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -33181,7 +33202,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(390:0) {#if loading}",
+    		source: "(389:0) {#if loading}",
     		ctx
     	});
 
@@ -33328,7 +33349,6 @@ var app = (function () {
     		});
 
     	let inNomie = true;
-    	let isSideNavOpen = false;
     	let theme = "g10";
     	let mode = "hidden";
     	let loading = true;
@@ -33351,12 +33371,18 @@ var app = (function () {
     		});
 
     		plugin.onWidget(() => {
+    			if (plugin.prefs.theme == "light") {
+    				$$invalidate(2, theme = "white");
+    			} else if (plugin.prefs.theme == "dark") {
+    				$$invalidate(2, theme = "g100");
+    			} else {
+    				$$invalidate(2, theme = "g10");
+    			}
+
     			$$invalidate(3, mode = "widget");
     		});
 
     		plugin.onRegistered(async () => {
-    			$$invalidate(1, inNomie = true);
-    			$$invalidate(4, loading = false);
     			await plugin.storage.init();
     			$$invalidate(6, fasts = await plugin.storage.getItem('fasts') || []);
     			history = await plugin.storage.getItem('history') || [];
@@ -33394,17 +33420,9 @@ var app = (function () {
     			};
 
     			if (plugin.prefs.theme == "light") {
-    				if (mode == "modal") {
-    					$$invalidate(2, theme = "g10");
-    				} else {
-    					$$invalidate(2, theme = "g10");
-    				}
+    				$$invalidate(2, theme = "g10");
     			} else if (plugin.prefs.theme == "dark") {
-    				if (mode == "modal") {
-    					$$invalidate(2, theme = "g90");
-    				} else {
-    					$$invalidate(2, theme = "g100");
-    				}
+    				$$invalidate(2, theme = "g90");
     			} else {
     				$$invalidate(2, theme = "g10");
     			}
@@ -33412,17 +33430,16 @@ var app = (function () {
 
     		setTimeout(
     			() => {
-    				if (loading) {
-    					$$invalidate(1, inNomie = false);
-    				} else {
-    					$$invalidate(8, amountofcards = fasts.length);
+    				$$invalidate(8, amountofcards = fasts.length);
 
-    					if (currentexercise.fasting) {
-    						$$invalidate(5, view = "mainexercise");
-    					}
+    				if (currentexercise.fasting) {
+    					$$invalidate(5, view = "mainexercise");
     				}
+
+    				$$invalidate(1, inNomie = true);
+    				$$invalidate(4, loading = false);
     			},
-    			700
+    			400
     		);
     	}
 
@@ -33856,7 +33873,6 @@ var app = (function () {
     		parent,
     		plugin,
     		inNomie,
-    		isSideNavOpen,
     		theme,
     		mode,
     		loading,
@@ -33902,7 +33918,6 @@ var app = (function () {
     	$$self.$inject_state = $$props => {
     		if ('parent' in $$props) $$invalidate(0, parent = $$props.parent);
     		if ('inNomie' in $$props) $$invalidate(1, inNomie = $$props.inNomie);
-    		if ('isSideNavOpen' in $$props) isSideNavOpen = $$props.isSideNavOpen;
     		if ('theme' in $$props) $$invalidate(2, theme = $$props.theme);
     		if ('mode' in $$props) $$invalidate(3, mode = $$props.mode);
     		if ('loading' in $$props) $$invalidate(4, loading = $$props.loading);

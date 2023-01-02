@@ -1,6 +1,5 @@
 <script>
   import { onMount } from 'svelte';
-  import LibLoader from './components/LibLoadder.svelte';
   import "carbon-components-svelte/css/all.css";
   import nid from "./modules/nid/nid";
   import {
@@ -35,8 +34,8 @@
         addToMoreMenu: true,
         addToWidgets: true,
       }); 
+  
   let inNomie = true;
-  let isSideNavOpen = false;
   let theme = "g10";
   let mode = "hidden";
   let loading = true;
@@ -49,14 +48,16 @@
       currentexercise.fasting = false;
   let currentexercisels = {};
       currentexercisels.fasting = false;   
-  let PlugiAapiUrl = "https://plugins.nomie.app/v1/nomie-plugin.js"; 
 
   // Load init params
   function loadInitParams() {
+    
     parent = getParentUrl();
     plugin.onUIOpened(async () => {
       mode = 'modal';
     });
+
+   
 
     plugin.onWidget(() => {
       if (plugin.prefs.theme == "light") {
@@ -83,15 +84,14 @@
       else {theme = "g10"} ;
     })
     
-    
-    
-    amountofcards = fasts.length;
+   setTimeout(() => {
+        amountofcards = fasts.length;
         if (currentexercise.fasting){
         view="mainexercise";}
-   setTimeout(() => {
       inNomie = true;
       loading = false;
-    }, 700);
+    }, 400);
+  
   }
 
   // change theme
@@ -341,32 +341,12 @@ const logFast = (event) => {
   plugin.createNote(note);
 }
 
-function onLoaded() {
- //setTimeout(()=>{
- // if (plugin.prefs == undefined) {
- //   window.location.reload()}},2000);
- // if (!plugin) {
- // plugin = new NomiePlugin({
- //   name: pluginname,
- //       emoji: pluginemoji,
- //       avatar: "data:image/jpeg;base64,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",
- //       description: "Intermitted Fasting Timer",
- //       uses: ["createNote", "getLocation","selectTrackables","getTrackable"],
- //       version: "0.5",
- //       addToCaptureMenu: true,
- //       addToMoreMenu: true,
- //       addToWidgets: true,
- //     })
-//  }
-}
 
  onMount(async () => {
-  loadInitParams();
+  loadInitParams()
  })
 
 </script>
-<LibLoader url={PlugiAapiUrl}
-on:loaded="{onLoaded}" />
 
 {#if mode == "modal"  || mode =="widget"}
 <Theme bind:theme />
