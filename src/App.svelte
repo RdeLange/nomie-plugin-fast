@@ -76,11 +76,11 @@
       //saveToLS('currentfast', currentexercise);
       //currentexercisels = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
       
-      if (plugin.prefs.theme == "light") {
-        theme = "g10"}
-      else if (plugin.prefs.theme == "dark") {
-        theme = "g90"}  
-      else {theme = "g10"} ;
+    //  if (plugin.prefs.theme == "light") {
+    //    theme = "g10"}
+    //  else if (plugin.prefs.theme == "dark") {
+    //    theme = "g90"}  
+    //  else {theme = "g10"} ;
     });
     amountofcards = fasts.length;
         if (currentexercise.fasting){
