@@ -67,21 +67,21 @@
       mode = "widget";
     });
 
-    //plugin.onRegistered(async () => {
-     // await plugin.storage.init();
-     // fasts = await plugin.storage.getItem('fasts') || [];
-     // history = await plugin.storage.getItem('history') || [];
-     // config = await plugin.storage.getItem('configuration') || {trackers:["none","none"],trackeroverrule:true,logentry:"Just finished <fast> exercise taking <duration> hours."};
-     // currentexercise = await plugin.storage.getItem('currentexercise') || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
-      //saveToLS('currentfast', currentexercise);
-      //currentexercisels = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
+    plugin.onRegistered(async () => {
+      await plugin.storage.init();
+      fasts = await plugin.storage.getItem('fasts') || [];
+      history = await plugin.storage.getItem('history') || [];
+      config = await plugin.storage.getItem('configuration') || {trackers:["none","none"],trackeroverrule:true,logentry:"Just finished <fast> exercise taking <duration> hours."};
+      currentexercise = await plugin.storage.getItem('currentexercise') || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
+      saveToLS('currentfast', currentexercise);
+      currentexercisels = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
       
-    //  if (plugin.prefs.theme == "light") {
-    //    theme = "g10"}
-    //  else if (plugin.prefs.theme == "dark") {
-    //    theme = "g90"}  
-    //  else {theme = "g10"} ;
-   // })
+      if (plugin.prefs.theme == "light") {
+        theme = "g10"}
+      else if (plugin.prefs.theme == "dark") {
+        theme = "g90"}  
+      else {theme = "g10"} ;
+    })
     
     
     
