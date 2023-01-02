@@ -249,7 +249,7 @@ const deletefast = event => {
 		fasts.splice(index, 1);
 		fasts = [...fasts];
 		console.log('fasts after delete', JSON.stringify(fasts));
-		resetAndSave(fasts);
+		resetAndSave(fasts) ;
 };
 
 // Method to edit a fast
