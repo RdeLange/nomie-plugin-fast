@@ -59,6 +59,11 @@
     });
 
     plugin.onWidget(() => {
+      if (plugin.prefs.theme == "light") {
+        theme = "white"}
+      else if (plugin.prefs.theme == "dark") {
+        theme = "g100"}  
+      else {theme = "g10"} 
       mode = "widget";
     });
 
@@ -72,13 +77,9 @@
       currentexercisels = JSON.parse(readFromLS('currentfast')) || {description: "",name:"",minutes: "", hours: "", day: "", duration: "", endtime: "", endday: "", fasting: false};
        
       if (plugin.prefs.theme == "light") {
-        if(mode == "modal"){
-          theme = "g10"}
-        else {theme = "g10"}}
+        theme = "g10"}
       else if (plugin.prefs.theme == "dark") {
-        if(mode == "modal"){
-          theme = "g90"}
-        else {theme = "g100"}}  
+        theme = "g90"}  
       else {theme = "g10"} 
     })
     amountofcards = fasts.length;
