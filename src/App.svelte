@@ -67,7 +67,7 @@
       mode = "widget";
     });
 
-    plugin.onRegistered(async () => {
+    //plugin.onRegistered(async () => {
      // await plugin.storage.init();
      // fasts = await plugin.storage.getItem('fasts') || [];
      // history = await plugin.storage.getItem('history') || [];
@@ -81,7 +81,10 @@
     //  else if (plugin.prefs.theme == "dark") {
     //    theme = "g90"}  
     //  else {theme = "g10"} ;
-    });
+   // })
+    
+    
+    
     amountofcards = fasts.length;
         if (currentexercise.fasting){
         view="mainexercise";}
