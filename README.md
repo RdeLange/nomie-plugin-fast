@@ -4,9 +4,9 @@ The ⏲Nomie Fasting Plugin is a plugin for Nomie6-oss.
 
 ## About the ⏲Nomie Fasting Plugin
 
-The Nomie Fasting Plugin will support your fast exercises by defining a preset of fasting cycles and (in the background) keep track of the progress of your current fasting. You can choose to use one of the predefined fasting cycles or you can create your own.
+The Nomie Fasting Plugin will support your fasting exercises by defining a preset of fasting cycles and (in the background) keep track of the progress of your current fasting. You can choose to use one of the predefined fasting cycles or you can create your own.
 
-When your fasting caycle is completed the plugin can autmatically log your results (duration and mood) to the Nomie Trackables of your choice.
+When your fasting cycle is completed the plugin can autmatically log your results (duration and mood) to the Nomie Trackables of your choice.
 
 ## Installing the Plugin
 
@@ -26,7 +26,7 @@ The ⏲Nomie Fasting Plugin can be installed in Nomie via the following steps:
 
 ## Using the Plugin
 
-After launching the plugin, you will be presented with the main screen. This creen will show all you selected pre-defined fasting cycles and/or your own defined cycles.
+After launching the plugin, you will be presented with the main screen. This screen will show all your selected pre-defined fasting cycles and/or your own defined cycles.
 
 ![](assets/20230125_080220_image.png)
 
@@ -36,7 +36,7 @@ By clicking on the edit button you can change the main parameters of the selecte
 
 ![](assets/20230125_080304_image.png)
 
-Most of the options are self explanatory. The hours represents the amount of hours the cycle should hold.
+Most of the options are self explanatory. The hours represents the amount of hours the cycle should last.
 
 Once ready with editing you can select the 'Save' button.
 
@@ -50,7 +50,7 @@ Just click on the 'Start' button and the timer will start for you:
 
 ![](assets/20230125_081111_Screen-Recording-2023-01-25-at-08.05.58.gif)
 
-When the exercise is finished (and defined in your configuration settings) you can automatically log your achievements in Nomie:
+When the exercise is finished (and when defined in your configuration settings) you can automatically log your achievements in Nomie:
 
 ![](assets/20230125_080655_image.png)
 
