@@ -1,8 +1,8 @@
-# 🥗Nomie Fasting Plugin
+# ⏲Nomie Fasting Plugin
 
-The 🥗Nomie Fasting Plugin is a plugin for Nomie6-oss.
+The ⏲Nomie Fasting Plugin is a plugin for Nomie6-oss.
 
-## About the 🥗Nomie Fasting Plugin
+## About the ⏲Nomie Fasting Plugin
 
 The Nomie Fasting Plugin will support your fast exercises by defining a preset of fasting cycles and (in the background) keep track of the progress of your current fasting. You can choose to use one of the predefined fasting cycles or you can create your own.
 
@@ -14,7 +14,7 @@ The url of the plugin is:
 
 [https://dailynomie.github.io/nomie-plugin-fast/](https://dailynomie.github.io/nomie-plugin-fast/)
 
-The 🥗Nomie Fasting Plugin can be installed in Nomie via the following steps:
+The ⏲Nomie Fasting Plugin can be installed in Nomie via the following steps:
 
 * Go to the More Tab
 * Select Plugins
