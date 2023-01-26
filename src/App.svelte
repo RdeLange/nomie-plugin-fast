@@ -19,7 +19,7 @@
   import Information from "carbon-icons-svelte/lib/Information.svelte";
   import { saveToLS, readFromLS } from './storage/storage';
 
-  const pluginname = "Fasting Plugin";
+  const pluginname = "Nomie Fasting";
   const pluginemoji = "⏲";
   var parent = "";
   
